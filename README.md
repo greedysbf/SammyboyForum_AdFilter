@@ -4,6 +4,6 @@ How to use:
 1. Open uBlock Origins
 2. Go to Dashboard
 3. Go to Filter Lists
-4. Under Custom
+4. Scroll down to Import
 5. Enter the URL "https://greedysbf.github.io/SammyboyForum_AdFilter/sbfadspam.txt"
-6. Click Apply Changes
+6. Click "Apply Changes" at the top left corner
