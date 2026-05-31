@@ -5,5 +5,5 @@ How to use:
 2. Go to Dashboard
 3. Go to Filter Lists
 4. Under Custom
-5. Enter the URL "https://greedysbf.github.io/sbfadspamfilter/sbfadspam.txt"
+5. Enter the URL "https://greedysbf.github.io/SammyboyForum_AdFilter/sbfadspam.txt"
 6. Click Apply Changes
