@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: SBF Advertiser Spam Blocker
 ! Expires: 23 hours (update frequency)
-! Last modified: Sat, 07 Jun 2026 04:12:55 +0800
+! Last modified: Sat, 08 Jun 2026 00:12:55 +0800
 
 
 !Hide User ------------------------------------------------- THESE are persistent bad advertisers creating multiple threads ------------------
@@ -97,6 +97,27 @@ sammyboyforum.com##div.thread:has(+ div.windowbg:contains(MassiveCock))
 ##tr:has([id*="724056"])
 ##*:has(> a[href*="724056"])
 ##*:has(> a[href*="724056"]) + div.windowbg
+
+
+##tr:has([id*="1121224"])
+##*:has(> a[href*="1121224"])
+##*:has(> a[href*="1121224"]) + div.windowbg
+
+##tr:has([id*="1119710"])
+##*:has(> a[href*="1119710"])
+##*:has(> a[href*="1119710"]) + div.windowbg
+
+##tr:has([id*="1121765"])
+##*:has(> a[href*="1121765"])
+##*:has(> a[href*="1121765"]) + div.windowbg
+
+##tr:has([id*="1089621"])
+##*:has(> a[href*="1089621"])
+##*:has(> a[href*="1089621"]) + div.windowbg
+
+##tr:has([id*="1096583"])
+##*:has(> a[href*="1096583"])
+##*:has(> a[href*="1096583"]) + div.windowbg
 
 ##tr:has([id*="1121214"])
 ##*:has(> a[href*="1121214"])
