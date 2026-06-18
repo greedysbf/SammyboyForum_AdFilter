@@ -13,5 +13,5 @@ How to remove:
 2. Go to Dashboard
 3. Go to Filter Lists
 4. Scroll down to "Custom"
-5. Click the <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/crown.svg" width="50" height="50"> icon beside "SBF Advertiser Spam Blocker
+5. Click the <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/7.x/svgs/solid/trash.svg" width="25" height="25"> icon beside "SBF Advertiser Spam Blocker
 " to delete the filter list
