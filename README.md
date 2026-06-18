@@ -20,5 +20,5 @@
 2. Go to Dashboard
 3. Go to Filter Lists
 4. Scroll down to "Custom"
-5. Click the trash can icon beside "SBF Advertiser Spam Blocker
-" to delete the filter list
+5. Click the trash can icon beside "SBF Advertiser Spam Blocker" to delete the filter list
+6. Click "Apply Changes" at the top left corner
