@@ -1,88 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: SBF Advertiser Spam Blocker
 ! Expires: 23 hours (update frequency)
-! Last modified: 18 Jun 2026 05:12:55 +0800
+! Last modified: 20 Jun 2026 00:12:55 +0800
 
 
 !Hide User ------------------------------------------------- THESE are persistent bad advertisers creating multiple threads ------------------
 !------------------------------------------- Due to mobile forum limitation, user added here can only be filtered by last post ----------------------
-!SLFantasy
-##tr:has([onclick*="1008164"])
-##tr:has([onclick*="996187"])
-sammyboyforum.com##div.windowbg:contains(SLFantasy111)
-sammyboyforum.com##div.thread_hot:has(+ div.windowbg:contains(SLFantasy111))
-sammyboyforum.com##div.thread_hot_new:has(+ div.windowbg:contains(SLFantasy111))
-sammyboyforum.com##div.thread_new:has(+ div.windowbg:contains(SLFantasy111))
-sammyboyforum.com##div.thread:has(+ div.windowbg:contains(SLFantasy111))
-sammyboyforum.com##div.windowbg:contains(SLFantasy)
-sammyboyforum.com##div.thread_hot:has(+ div.windowbg:contains(SLFantasy))
-sammyboyforum.com##div.thread_hot_new:has(+ div.windowbg:contains(SLFantasy))
-sammyboyforum.com##div.thread_new:has(+ div.windowbg:contains(SLFantasy))
-sammyboyforum.com##div.thread:has(+ div.windowbg:contains(SLFantasy))
-
-!liuliangirl
-##tr:has([onclick*="1121235"])
-sammyboyforum.com##div.windowbg:contains(liuliangirl)
-sammyboyforum.com##div.thread_hot:has(+ div.windowbg:contains(liuliangirl))
-sammyboyforum.com##div.thread_hot_new:has(+ div.windowbg:contains(liuliangirl))
-sammyboyforum.com##div.thread_new:has(+ div.windowbg:contains(liuliangirl))
-sammyboyforum.com##div.thread:has(+ div.windowbg:contains(liuliangirl))
-
-!kaaron
-##tr:has([onclick*="992642"])
-sammyboyforum.com##div.windowbg:contains(kaaron)
-sammyboyforum.com##div.thread_hot:has(+ div.windowbg:contains(kaaron))
-sammyboyforum.com##div.thread_hot_new:has(+ div.windowbg:contains(kaaron))
-sammyboyforum.com##div.thread_new:has(+ div.windowbg:contains(kaaron))
-sammyboyforum.com##div.thread:has(+ div.windowbg:contains(kaaron))
-
-!FantaGrape
-##tr:has([onclick*="986529"])
-sammyboyforum.com##div.windowbg:contains(FantaGrape)
-sammyboyforum.com##div.thread_hot:has(+ div.windowbg:contains(FantaGrape))
-sammyboyforum.com##div.thread_hot_new:has(+ div.windowbg:contains(FantaGrape))
-sammyboyforum.com##div.thread_new:has(+ div.windowbg:contains(FantaGrape))
-sammyboyforum.com##div.thread:has(+ div.windowbg:contains(FantaGrape))
-
-!FantaCherry
-##tr:has([onclick*="989197"])
-sammyboyforum.com##div.windowbg:contains(FantaCherry)
-sammyboyforum.com##div.thread_hot:has(+ div.windowbg:contains(FantaCherry))
-sammyboyforum.com##div.thread_hot_new:has(+ div.windowbg:contains(FantaCherry))
-sammyboyforum.com##div.thread_new:has(+ div.windowbg:contains(FantaCherry))
-sammyboyforum.com##div.thread:has(+ div.windowbg:contains(FantaCherry))
-
-!MassageGuide
-##tr:has([onclick*="975017"])
-sammyboyforum.com##div.windowbg:contains(MassageGuide)
-sammyboyforum.com##div.thread_hot:has(+ div.windowbg:contains(MassageGuide))
-sammyboyforum.com##div.thread_hot_new:has(+ div.windowbg:contains(MassageGuide))
-sammyboyforum.com##div.thread_new:has(+ div.windowbg:contains(MassageGuide))
-sammyboyforum.com##div.thread:has(+ div.windowbg:contains(MassageGuide))
-
-!just4pleasure99
-##tr:has([onclick*="1094300"])
-sammyboyforum.com##div.windowbg:contains(just4pleasure99)
-sammyboyforum.com##div.thread_hot:has(+ div.windowbg:contains(just4pleasure99))
-sammyboyforum.com##div.thread_hot_new:has(+ div.windowbg:contains(just4pleasure99))
-sammyboyforum.com##div.thread_new:has(+ div.windowbg:contains(just4pleasure99))
-sammyboyforum.com##div.thread:has(+ div.windowbg:contains(just4pleasure99))
-
-!TequilaBoy
-##tr:has([onclick*="925553"])
-sammyboyforum.com##div.windowbg:contains(TequilaBoy)
-sammyboyforum.com##div.thread_hot:has(+ div.windowbg:contains(TequilaBoy))
-sammyboyforum.com##div.thread_hot_new:has(+ div.windowbg:contains(TequilaBoy))
-sammyboyforum.com##div.thread_new:has(+ div.windowbg:contains(TequilaBoy))
-sammyboyforum.com##div.thread:has(+ div.windowbg:contains(TequilaBoy))
-
-!MassiveCock
-##tr:has([onclick*="1080944"])
-sammyboyforum.com##div.windowbg:contains(MassiveCock)
-sammyboyforum.com##div.thread_hot:has(+ div.windowbg:contains(MassiveCock))
-sammyboyforum.com##div.thread_hot_new:has(+ div.windowbg:contains(MassiveCock))
-sammyboyforum.com##div.thread_new:has(+ div.windowbg:contains(MassiveCock))
-sammyboyforum.com##div.thread:has(+ div.windowbg:contains(MassiveCock))
 
 !------------------------------Site Banners---------------------------
 ||sammyboyforum.com/bannergraphics/
@@ -97,12 +20,73 @@ sammyboyforum.com##div.thread:has(+ div.windowbg:contains(MassiveCock))
 ##*:has(> a[href*="1071547"])
 ##*:has(> a[href*="1071547"]) + div.windowbg
 
+!------------------------------------------------------------Petain Romps
+!Thread for Exchange Points / Complaints / Reputation System Questions 
+##tr:has([id*="432327"])
+##*:has(> a[href*="432327"])
+##*:has(> a[href*="432327"]) + div.windowbg
+
 !------------------------------------------------------------Health Centre and KTV lounge Tangos
 !ZAP FREE PT EXCHANGE! 
 ##tr:has([id*="724056"])
 ##*:has(> a[href*="724056"])
 ##*:has(> a[href*="724056"]) + div.windowbg
 
+##tr:has([id*="1057981"])
+##*:has(> a[href*="1057981"])
+##*:has(> a[href*="1057981"]) + div.windowbg
+
+##tr:has([id*="1123738"])
+##*:has(> a[href*="1123738"])
+##*:has(> a[href*="1123738"]) + div.windowbg
+
+##tr:has([id*="1123744"])
+##*:has(> a[href*="1123744"])
+##*:has(> a[href*="1123744"]) + div.windowbg
+
+##tr:has([id*="1120288"])
+##*:has(> a[href*="1120288"])
+##*:has(> a[href*="1120288"]) + div.windowbg
+
+##tr:has([id*="1118740"])
+##*:has(> a[href*="1118740"])
+##*:has(> a[href*="1118740"]) + div.windowbg
+
+##tr:has([id*="1118746"])
+##*:has(> a[href*="1118746"])
+##*:has(> a[href*="1118746"]) + div.windowbg
+
+##tr:has([id*="1118745"])
+##*:has(> a[href*="1118745"])
+##*:has(> a[href*="1118745"]) + div.windowbg
+
+##tr:has([id*="1079024"])
+##*:has(> a[href*="1079024"])
+##*:has(> a[href*="1079024"]) + div.windowbg
+
+##tr:has([id*="1117109"])
+##*:has(> a[href*="1117109"])
+##*:has(> a[href*="1117109"]) + div.windowbg
+
+##tr:has([id*="1089882"])
+##*:has(> a[href*="1089882"])
+##*:has(> a[href*="1089882"]) + div.windowbg
+
+##tr:has([id*="1099943"])
+##*:has(> a[href*="1099943"])
+##*:has(> a[href*="1099943"]) + div.windowbg
+
+##tr:has([id*="1114973"])
+##*:has(> a[href*="1114973"])
+##*:has(> a[href*="1114973"]) + div.windowbg
+
+##tr:has([id*="1034674"])
+##*:has(> a[href*="1034674"])
+##*:has(> a[href*="1034674"]) + div.windowbg
+
+##tr:has([id*="1092003"])
+##*:has(> a[href*="1092003"])
+##*:has(> a[href*="1092003"]) + div.windowbg
 
 ##tr:has([id*="911010"])
 ##*:has(> a[href*="911010"])
