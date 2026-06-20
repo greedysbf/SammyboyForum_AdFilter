@@ -1,9 +1,9 @@
 # Spam filter for Sammyboy Forum. Used by uBlock Origins (uBO) / uBlock Origins Lite (uBOL) to block advertising and point trading threads.
 
-### What is uBlock Origins (uBO) / uBlock Origins Lite (uBOL)?
+## What is uBlock Origins (uBO) / uBlock Origins Lite (uBOL)?
 It is an Ad Blocking extension/addon for browsers to enhance your browsing experience. It blocks advertisements in your browser by stopping them before it loads so it actually enhances your loading speed. It can also block irritating elements on a webpage, which is why this filter list exists.
 
-### How to install uBlock Origins (uBO) / uBlock Origins Lite (uBOL) for your internet browser:
+## How to install uBlock Origins (uBO) / uBlock Origins Lite (uBOL) for your internet browser:
 | Browser | Install from | Browser | Install from |
 | ----------- | ----------- | ----------- | ----------- |
 | <img width="64" height="64" alt="chrome" src="https://github.com/user-attachments/assets/fff495fd-170a-4078-9efa-23139d4578a1" /> | [Chrome web store](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh) | <img width="64" height="64" alt="firefox" src="https://github.com/user-attachments/assets/a9ba8366-dd65-4e68-be4b-0cdc6d0d3ebf" /> | [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
