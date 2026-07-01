@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: SBF Advertiser Spam Blocker
 ! Expires: 23 hours (update frequency)
-! Last modified: 30 Jun 2026 03:12:55 +0800
+! Last modified: 01 Jul 2026 01:12:55 +0800
 
 
 !Hide User ------------------------------------------------- THESE are persistent bad advertisers creating multiple threads ------------------
@@ -31,6 +31,18 @@
 ##tr:has([id*="724056"])
 ##*:has(> a[href*="724056"])
 ##*:has(> a[href*="724056"]) + div.windowbg
+
+##tr:has([id*="1093468"])
+##*:has(> a[href*="1093468"])
+##*:has(> a[href*="1093468"]) + div.windowbg
+
+##tr:has([id*="1125509"])
+##*:has(> a[href*="1125509"])
+##*:has(> a[href*="1125509"]) + div.windowbg
+
+##tr:has([id*="1125671"])
+##*:has(> a[href*="1125671"])
+##*:has(> a[href*="1125671"]) + div.windowbg
 
 ##tr:has([id*="1125225"])
 ##*:has(> a[href*="1125225"])
@@ -757,7 +769,7 @@
 ##*:has(> a[href*="1004068"])
 ##*:has(> a[href*="1004068"]) + div.windowbg
 
-!Cheapest Overnight Package In Town (With 4 Star Hotel Room)🔥🔥🔥 
+!Cheapest Overnight Package In Town (With 4 Star Hotel Room)
 ##tr:has([id*="1024791"])
 ##*:has(> a[href*="1024791"])
 ##*:has(> a[href*="1024791"]) + div.windowbg
