@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: SBF Advertiser Spam Blocker
 ! Expires: 23 hours (update frequency)
-! Last modified: 6 Aug 2026 00:12:55 +0800
+! Last modified: 13 Aug 2026 00:12:55 +0800
 
 
 !Hide User ------------------------------------------------- THESE are persistent bad advertisers creating multiple threads ------------------
@@ -32,396 +32,146 @@
 ##*:has(> a[href*="724056"])
 ##*:has(> a[href*="724056"]) + div.windowbg
 
-##tr:has([id*="1131036"])
-##*:has(> a[href*="1131036"])
-##*:has(> a[href*="1131036"]) + div.windowbg
 
-##tr:has([id*="1131530"])
-##*:has(> a[href*="1131530"])
-##*:has(> a[href*="1131530"]) + div.windowbg
-
-##tr:has([id*="1131509"])
-##*:has(> a[href*="1131509"])
-##*:has(> a[href*="1131509"]) + div.windowbg
-
-##tr:has([id*="1131349"])
-##*:has(> a[href*="1131349"])
-##*:has(> a[href*="1131349"]) + div.windowbg
-
-##tr:has([id*="1131770"])
-##*:has(> a[href*="1131770"])
-##*:has(> a[href*="1131770"]) + div.windowbg
-
-##tr:has([id*="1131450"])
-##*:has(> a[href*="1131450"])
-##*:has(> a[href*="1131450"]) + div.windowbg
-
-##tr:has([id*="1131954"])
-##*:has(> a[href*="1131954"])
-##*:has(> a[href*="1131954"]) + div.windowbg
-
-##tr:has([id*="1131934"])
-##*:has(> a[href*="1131934"])
-##*:has(> a[href*="1131934"]) + div.windowbg
-
-##tr:has([id*="1131497"])
-##*:has(> a[href*="1131497"])
-##*:has(> a[href*="1131497"]) + div.windowbg
-
-##tr:has([id*="1131704"])
-##*:has(> a[href*="1131704"])
-##*:has(> a[href*="1131704"]) + div.windowbg
-
-##tr:has([id*="1131539"])
-##*:has(> a[href*="1131539"])
-##*:has(> a[href*="1131539"]) + div.windowbg
-
-##tr:has([id*="1131917"])
-##*:has(> a[href*="1131917"])
-##*:has(> a[href*="1131917"]) + div.windowbg
-
-##tr:has([id*="1131433"])
-##*:has(> a[href*="1131433"])
-##*:has(> a[href*="1131433"]) + div.windowbg
-
-##tr:has([id*="1131817"])
-##*:has(> a[href*="1131817"])
-##*:has(> a[href*="1131817"]) + div.windowbg
-
-##tr:has([id*="1131289"])
-##*:has(> a[href*="1131289"])
-##*:has(> a[href*="1131289"]) + div.windowbg
-
-##tr:has([id*="1131304"])
-##*:has(> a[href*="1131304"])
-##*:has(> a[href*="1131304"]) + div.windowbg
-
-##tr:has([id*="1130310"])
-##*:has(> a[href*="1130310"])
-##*:has(> a[href*="1130310"]) + div.windowbg
-
-##tr:has([id*="1130115"])
-##*:has(> a[href*="1130115"])
-##*:has(> a[href*="1130115"]) + div.windowbg
-
-##tr:has([id*="1130169"])
-##*:has(> a[href*="1130169"])
-##*:has(> a[href*="1130169"]) + div.windowbg
-
-##tr:has([id*="1130102"])
-##*:has(> a[href*="1130102"])
-##*:has(> a[href*="1130102"]) + div.windowbg
-
-##tr:has([id*="1129085"])
-##*:has(> a[href*="1129085"])
-##*:has(> a[href*="1129085"]) + div.windowbg
-
-##tr:has([id*="1129891"])
-##*:has(> a[href*="1129891"])
-##*:has(> a[href*="1129891"]) + div.windowbg
-
-##tr:has([id*="1129616"])
-##*:has(> a[href*="1129616"])
-##*:has(> a[href*="1129616"]) + div.windowbg
-
-##tr:has([id*="1129761"])
-##*:has(> a[href*="1129761"])
-##*:has(> a[href*="1129761"]) + div.windowbg
-
-##tr:has([id*="1129925"])
-##*:has(> a[href*="1129925"])
-##*:has(> a[href*="1129925"]) + div.windowbg
-
-##tr:has([id*="1129910"])
-##*:has(> a[href*="1129910"])
-##*:has(> a[href*="1129910"]) + div.windowbg
-
-##tr:has([id*="1129823"])
-##*:has(> a[href*="1129823"])
-##*:has(> a[href*="1129823"]) + div.windowbg
-
-##tr:has([id*="1129655"])
-##*:has(> a[href*="1129655"])
-##*:has(> a[href*="1129655"]) + div.windowbg
-
-##tr:has([id*="1129976"])
-##*:has(> a[href*="1129976"])
-##*:has(> a[href*="1129976"]) + div.windowbg
-
-##tr:has([id*="1129425"])
-##*:has(> a[href*="1129425"])
-##*:has(> a[href*="1129425"]) + div.windowbg
-
-##tr:has([id*="1129328"])
-##*:has(> a[href*="1129328"])
-##*:has(> a[href*="1129328"]) + div.windowbg
-
-##tr:has([id*="1129422"])
-##*:has(> a[href*="1129422"])
-##*:has(> a[href*="1129422"]) + div.windowbg
-
-##tr:has([id*="1129289"])
-##*:has(> a[href*="1129289"])
-##*:has(> a[href*="1129289"]) + div.windowbg
-
-##tr:has([id*="1129466"])
-##*:has(> a[href*="1129466"])
-##*:has(> a[href*="1129466"]) + div.windowbg
-
-##tr:has([id*="1128922"])
-##*:has(> a[href*="1128922"])
-##*:has(> a[href*="1128922"]) + div.windowbg
-
-##tr:has([id*="1128912"])
-##*:has(> a[href*="1128912"])
-##*:has(> a[href*="1128912"]) + div.windowbg
-
-##tr:has([id*="1128905"])
-##*:has(> a[href*="1128905"])
-##*:has(> a[href*="1128905"]) + div.windowbg
-
-##tr:has([id*="1128839"])
-##*:has(> a[href*="1128839"])
-##*:has(> a[href*="1128839"]) + div.windowbg
-
-##tr:has([id*="1129010"])
-##*:has(> a[href*="1129010"])
-##*:has(> a[href*="1129010"]) + div.windowbg
-
-##tr:has([id*="1128849"])
-##*:has(> a[href*="1128849"])
-##*:has(> a[href*="1128849"]) + div.windowbg
-
-##tr:has([id*="1128833"])
-##*:has(> a[href*="1128833"])
-##*:has(> a[href*="1128833"]) + div.windowbg
-
-##tr:has([id*="1127881"])
-##*:has(> a[href*="1127881"])
-##*:has(> a[href*="1127881"]) + div.windowbg
-
-##tr:has([id*="1128269"])
-##*:has(> a[href*="1128269"])
-##*:has(> a[href*="1128269"]) + div.windowbg
-
-##tr:has([id*="1128169"])
-##*:has(> a[href*="1128169"])
-##*:has(> a[href*="1128169"]) + div.windowbg
-
-##tr:has([id*="1128693"])
-##*:has(> a[href*="1128693"])
-##*:has(> a[href*="1128693"]) + div.windowbg
-
-##tr:has([id*="1128521"])
-##*:has(> a[href*="1128521"])
-##*:has(> a[href*="1128521"]) + div.windowbg
-
-##tr:has([id*="1127938"])
-##*:has(> a[href*="1127938"])
-##*:has(> a[href*="1127938"]) + div.windowbg
-
-##tr:has([id*="1127884"])
-##*:has(> a[href*="1127884"])
-##*:has(> a[href*="1127884"]) + div.windowbg
-
-##tr:has([id*="1127669"])
-##*:has(> a[href*="1127669"])
-##*:has(> a[href*="1127669"]) + div.windowbg
-
-##tr:has([id*="1127626"])
-##*:has(> a[href*="1127626"])
-##*:has(> a[href*="1127626"]) + div.windowbg
-
-##tr:has([id*="1127943"])
-##*:has(> a[href*="1127943"])
-##*:has(> a[href*="1127943"]) + div.windowbg
-
-##tr:has([id*="1127911"])
-##*:has(> a[href*="1127911"])
-##*:has(> a[href*="1127911"]) + div.windowbg
-##tr:has([id*="1127196"])
-##*:has(> a[href*="1127196"])
-##*:has(> a[href*="1127196"]) + div.windowbg
-
-##tr:has([id*="1127347"])
-##*:has(> a[href*="1127347"])
-##*:has(> a[href*="1127347"]) + div.windowbg
-
-##tr:has([id*="1082603"])
-##*:has(> a[href*="1082603"])
-##*:has(> a[href*="1082603"]) + div.windowbg
-
-##tr:has([id*="1126651"])
-##*:has(> a[href*="1126651"])
-##*:has(> a[href*="1126651"]) + div.windowbg
-
-##tr:has([id*="1126852"])
-##*:has(> a[href*="1126852"])
-##*:has(> a[href*="1126852"]) + div.windowbg
-
-##tr:has([id*="1126533"])
-##*:has(> a[href*="1126533"])
-##*:has(> a[href*="1126533"]) + div.windowbg
-
-##tr:has([id*="1126137"])
-##*:has(> a[href*="1126137"])
-##*:has(> a[href*="1126137"]) + div.windowbg
-
-##tr:has([id*="1126380"])
-##*:has(> a[href*="1126380"])
-##*:has(> a[href*="1126380"]) + div.windowbg
-
-##tr:has([id*="1126029"])
-##*:has(> a[href*="1126029"])
-##*:has(> a[href*="1126029"]) + div.windowbg
-
-##tr:has([id*="1126072"])
-##*:has(> a[href*="1126072"])
-##*:has(> a[href*="1126072"]) + div.windowbg
-
-##tr:has([id*="1126049"])
-##*:has(> a[href*="1126049"])
-##*:has(> a[href*="1126049"]) + div.windowbg
-
-##tr:has([id*="1126004"])
-##*:has(> a[href*="1126004"])
-##*:has(> a[href*="1126004"]) + div.windowbg
-
-##tr:has([id*="1125853"])
-##*:has(> a[href*="1125853"])
-##*:has(> a[href*="1125853"]) + div.windowbg
-
-##tr:has([id*="1125886"])
-##*:has(> a[href*="1125886"])
-##*:has(> a[href*="1125886"]) + div.windowbg
-
-##tr:has([id*="1125587"])
-##*:has(> a[href*="1125587"])
-##*:has(> a[href*="1125587"]) + div.windowbg
-
-##tr:has([id*="1125833"])
-##*:has(> a[href*="1125833"])
-##*:has(> a[href*="1125833"]) + div.windowbg
-
-##tr:has([id*="1093468"])
-##*:has(> a[href*="1093468"])
-##*:has(> a[href*="1093468"]) + div.windowbg
-
-##tr:has([id*="1125509"])
-##*:has(> a[href*="1125509"])
-##*:has(> a[href*="1125509"]) + div.windowbg
-
-##tr:has([id*="1125671"])
-##*:has(> a[href*="1125671"])
-##*:has(> a[href*="1125671"]) + div.windowbg
-
-##tr:has([id*="1125225"])
-##*:has(> a[href*="1125225"])
-##*:has(> a[href*="1125225"]) + div.windowbg
-
-##tr:has([id*="1125077"])
-##*:has(> a[href*="1125077"])
-##*:has(> a[href*="1125077"]) + div.windowbg
-
-##tr:has([id*="1125403"])
-##*:has(> a[href*="1125403"])
-##*:has(> a[href*="1125403"]) + div.windowbg
-
-##tr:has([id*="1125076"])
-##*:has(> a[href*="1125076"])
-##*:has(> a[href*="1125076"]) + div.windowbg
-
-##tr:has([id*="1123662"])
-##*:has(> a[href*="1123662"])
-##*:has(> a[href*="1123662"]) + div.windowbg
-
-##tr:has([id*="1124859"])
-##*:has(> a[href*="1124859"])
-##*:has(> a[href*="1124859"]) + div.windowbg
-
-##tr:has([id*="1124862"])
-##*:has(> a[href*="1124862"])
-##*:has(> a[href*="1124862"]) + div.windowbg
-
-##tr:has([id*="1124184"])
-##*:has(> a[href*="1124184"])
-##*:has(> a[href*="1124184"]) + div.windowbg
-
-##tr:has([id*="1123976"])
-##*:has(> a[href*="1123976"])
-##*:has(> a[href*="1123976"]) + div.windowbg
-
-##tr:has([id*="1057981"])
-##*:has(> a[href*="1057981"])
-##*:has(> a[href*="1057981"]) + div.windowbg
-
-##tr:has([id*="1123738"])
-##*:has(> a[href*="1123738"])
-##*:has(> a[href*="1123738"]) + div.windowbg
-
-##tr:has([id*="1123744"])
-##*:has(> a[href*="1123744"])
-##*:has(> a[href*="1123744"]) + div.windowbg
-
-##tr:has([id*="1120288"])
-##*:has(> a[href*="1120288"])
-##*:has(> a[href*="1120288"]) + div.windowbg
-
-##tr:has([id*="1118740"])
-##*:has(> a[href*="1118740"])
-##*:has(> a[href*="1118740"]) + div.windowbg
-
-##tr:has([id*="1118746"])
-##*:has(> a[href*="1118746"])
-##*:has(> a[href*="1118746"]) + div.windowbg
-
-##tr:has([id*="1118745"])
-##*:has(> a[href*="1118745"])
-##*:has(> a[href*="1118745"]) + div.windowbg
-
-##tr:has([id*="1079024"])
-##*:has(> a[href*="1079024"])
-##*:has(> a[href*="1079024"]) + div.windowbg
-
-##tr:has([id*="1117109"])
-##*:has(> a[href*="1117109"])
-##*:has(> a[href*="1117109"]) + div.windowbg
-
-##tr:has([id*="1089882"])
-##*:has(> a[href*="1089882"])
-##*:has(> a[href*="1089882"]) + div.windowbg
-
-##tr:has([id*="1099943"])
-##*:has(> a[href*="1099943"])
-##*:has(> a[href*="1099943"]) + div.windowbg
-
-##tr:has([id*="1114973"])
-##*:has(> a[href*="1114973"])
-##*:has(> a[href*="1114973"]) + div.windowbg
+##tr:has([id*="929503"])
+##*:has(> a[href*="929503"])
+##*:has(> a[href*="929503"]) + div.windowbg
 
 ##tr:has([id*="1034674"])
 ##*:has(> a[href*="1034674"])
 ##*:has(> a[href*="1034674"]) + div.windowbg
 
+##tr:has([id*="1053097"])
+##*:has(> a[href*="1053097"])
+##*:has(> a[href*="1053097"]) + div.windowbg
+
+##tr:has([id*="1057981"])
+##*:has(> a[href*="1057981"])
+##*:has(> a[href*="1057981"]) + div.windowbg
+
+##tr:has([id*="1058311"])
+##*:has(> a[href*="1058311"])
+##*:has(> a[href*="1058311"]) + div.windowbg
+
+##tr:has([id*="1062836"])
+##*:has(> a[href*="1062836"])
+##*:has(> a[href*="1062836"]) + div.windowbg
+
+##tr:has([id*="1071971"])
+##*:has(> a[href*="1071971"])
+##*:has(> a[href*="1071971"]) + div.windowbg
+
+##tr:has([id*="1078893"])
+##*:has(> a[href*="1078893"])
+##*:has(> a[href*="1078893"]) + div.windowbg
+
+##tr:has([id*="1079024"])
+##*:has(> a[href*="1079024"])
+##*:has(> a[href*="1079024"]) + div.windowbg
+
+##tr:has([id*="1080420"])
+##*:has(> a[href*="1080420"])
+##*:has(> a[href*="1080420"]) + div.windowbg
+
+##tr:has([id*="1082141"])
+##*:has(> a[href*="1082141"])
+##*:has(> a[href*="1082141"]) + div.windowbg
+
+##tr:has([id*="1082603"])
+##*:has(> a[href*="1082603"])
+##*:has(> a[href*="1082603"]) + div.windowbg
+
+##tr:has([id*="1089379"])
+##*:has(> a[href*="1089379"])
+##*:has(> a[href*="1089379"]) + div.windowbg
+
+##tr:has([id*="1089882"])
+##*:has(> a[href*="1089882"])
+##*:has(> a[href*="1089882"]) + div.windowbg
+
 ##tr:has([id*="1092003"])
 ##*:has(> a[href*="1092003"])
 ##*:has(> a[href*="1092003"]) + div.windowbg
 
-##tr:has([id*="911010"])
-##*:has(> a[href*="911010"])
-##*:has(> a[href*="911010"]) + div.windowbg
+##tr:has([id*="1094874"])
+##*:has(> a[href*="1094874"])
+##*:has(> a[href*="1094874"]) + div.windowbg
 
-##tr:has([id*="1123100"])
-##*:has(> a[href*="1123100"])
-##*:has(> a[href*="1123100"]) + div.windowbg
+##tr:has([id*="1095661"])
+##*:has(> a[href*="1095661"])
+##*:has(> a[href*="1095661"]) + div.windowbg
 
-##tr:has([id*="1123003"])
-##*:has(> a[href*="1123003"])
-##*:has(> a[href*="1123003"]) + div.windowbg
+##tr:has([id*="1095981"])
+##*:has(> a[href*="1095981"])
+##*:has(> a[href*="1095981"]) + div.windowbg
 
-##tr:has([id*="1070758"])
-##*:has(> a[href*="1070758"])
-##*:has(> a[href*="1070758"]) + div.windowbg
+##tr:has([id*="1099943"])
+##*:has(> a[href*="1099943"])
+##*:has(> a[href*="1099943"]) + div.windowbg
+
+##tr:has([id*="1100878"])
+##*:has(> a[href*="1100878"])
+##*:has(> a[href*="1100878"]) + div.windowbg
+
+##tr:has([id*="1102813"])
+##*:has(> a[href*="1102813"])
+##*:has(> a[href*="1102813"]) + div.windowbg
+
+##tr:has([id*="1102838"])
+##*:has(> a[href*="1102838"])
+##*:has(> a[href*="1102838"]) + div.windowbg
+
+##tr:has([id*="1106656"])
+##*:has(> a[href*="1106656"])
+##*:has(> a[href*="1106656"]) + div.windowbg
+
+##tr:has([id*="1108431"])
+##*:has(> a[href*="1108431"])
+##*:has(> a[href*="1108431"]) + div.windowbg
+
+##tr:has([id*="1111179"])
+##*:has(> a[href*="1111179"])
+##*:has(> a[href*="1111179"]) + div.windowbg
+
+##tr:has([id*="1111251"])
+##*:has(> a[href*="1111251"])
+##*:has(> a[href*="1111251"]) + div.windowbg
+
+##tr:has([id*="1112723"])
+##*:has(> a[href*="1112723"])
+##*:has(> a[href*="1112723"]) + div.windowbg
+
+##tr:has([id*="1113771"])
+##*:has(> a[href*="1113771"])
+##*:has(> a[href*="1113771"]) + div.windowbg
+
+##tr:has([id*="1118104"])
+##*:has(> a[href*="1118104"])
+##*:has(> a[href*="1118104"]) + div.windowbg
+
+##tr:has([id*="1118108"])
+##*:has(> a[href*="1118108"])
+##*:has(> a[href*="1118108"]) + div.windowbg
+
+##tr:has([id*="1119656"])
+##*:has(> a[href*="1119656"])
+##*:has(> a[href*="1119656"]) + div.windowbg
+
+##tr:has([id*="1120696"])
+##*:has(> a[href*="1120696"])
+##*:has(> a[href*="1120696"]) + div.windowbg
+
+##tr:has([id*="1120734"])
+##*:has(> a[href*="1120734"])
+##*:has(> a[href*="1120734"]) + div.windowbg
+
+##tr:has([id*="1120875"])
+##*:has(> a[href*="1120875"])
+##*:has(> a[href*="1120875"]) + div.windowbg
+
+##tr:has([id*="1121018"])
+##*:has(> a[href*="1121018"])
+##*:has(> a[href*="1121018"]) + div.windowbg
 
 ##tr:has([id*="1122288"])
 ##*:has(> a[href*="1122288"])
@@ -431,532 +181,369 @@
 ##*:has(> a[href*="1122414"])
 ##*:has(> a[href*="1122414"]) + div.windowbg
 
+##tr:has([id*="1123744"])
+##*:has(> a[href*="1123744"])
+##*:has(> a[href*="1123744"]) + div.windowbg
+
+##tr:has([id*="1123976"])
+##*:has(> a[href*="1123976"])
+##*:has(> a[href*="1123976"]) + div.windowbg
+
+##tr:has([id*="1125225"])
+##*:has(> a[href*="1125225"])
+##*:has(> a[href*="1125225"]) + div.windowbg
+
+##tr:has([id*="1125509"])
+##*:has(> a[href*="1125509"])
+##*:has(> a[href*="1125509"]) + div.windowbg
+
+##tr:has([id*="1126072"])
+##*:has(> a[href*="1126072"])
+##*:has(> a[href*="1126072"]) + div.windowbg
+
+##tr:has([id*="1126137"])
+##*:has(> a[href*="1126137"])
+##*:has(> a[href*="1126137"]) + div.windowbg
+
+##tr:has([id*="1126651"])
+##*:has(> a[href*="1126651"])
+##*:has(> a[href*="1126651"]) + div.windowbg
+
+##tr:has([id*="1126852"])
+##*:has(> a[href*="1126852"])
+##*:has(> a[href*="1126852"]) + div.windowbg
+
+##tr:has([id*="1127626"])
+##*:has(> a[href*="1127626"])
+##*:has(> a[href*="1127626"]) + div.windowbg
+
+##tr:has([id*="1127881"])
+##*:has(> a[href*="1127881"])
+##*:has(> a[href*="1127881"]) + div.windowbg
+
+##tr:has([id*="1127884"])
+##*:has(> a[href*="1127884"])
+##*:has(> a[href*="1127884"]) + div.windowbg
+
+##tr:has([id*="1127911"])
+##*:has(> a[href*="1127911"])
+##*:has(> a[href*="1127911"]) + div.windowbg
+
+##tr:has([id*="1127938"])
+##*:has(> a[href*="1127938"])
+##*:has(> a[href*="1127938"]) + div.windowbg
+
+##tr:has([id*="1127943"])
+##*:has(> a[href*="1127943"])
+##*:has(> a[href*="1127943"]) + div.windowbg
+
+##tr:has([id*="1128269"])
+##*:has(> a[href*="1128269"])
+##*:has(> a[href*="1128269"]) + div.windowbg
+
+##tr:has([id*="1128833"])
+##*:has(> a[href*="1128833"])
+##*:has(> a[href*="1128833"]) + div.windowbg
+
+##tr:has([id*="1128839"])
+##*:has(> a[href*="1128839"])
+##*:has(> a[href*="1128839"]) + div.windowbg
+
+##tr:has([id*="1128849"])
+##*:has(> a[href*="1128849"])
+##*:has(> a[href*="1128849"]) + div.windowbg
+
+##tr:has([id*="1128905"])
+##*:has(> a[href*="1128905"])
+##*:has(> a[href*="1128905"]) + div.windowbg
+
+##tr:has([id*="1128912"])
+##*:has(> a[href*="1128912"])
+##*:has(> a[href*="1128912"]) + div.windowbg
+
+##tr:has([id*="1128922"])
+##*:has(> a[href*="1128922"])
+##*:has(> a[href*="1128922"]) + div.windowbg
+
+##tr:has([id*="1129010"])
+##*:has(> a[href*="1129010"])
+##*:has(> a[href*="1129010"]) + div.windowbg
+
+##tr:has([id*="1129179"])
+##*:has(> a[href*="1129179"])
+##*:has(> a[href*="1129179"]) + div.windowbg
+
+##tr:has([id*="1129289"])
+##*:has(> a[href*="1129289"])
+##*:has(> a[href*="1129289"]) + div.windowbg
+
+##tr:has([id*="1129422"])
+##*:has(> a[href*="1129422"])
+##*:has(> a[href*="1129422"]) + div.windowbg
+
+##tr:has([id*="1129425"])
+##*:has(> a[href*="1129425"])
+##*:has(> a[href*="1129425"]) + div.windowbg
+
+##tr:has([id*="1129466"])
+##*:has(> a[href*="1129466"])
+##*:has(> a[href*="1129466"]) + div.windowbg
+
+##tr:has([id*="1129616"])
+##*:has(> a[href*="1129616"])
+##*:has(> a[href*="1129616"]) + div.windowbg
+
+##tr:has([id*="1129655"])
+##*:has(> a[href*="1129655"])
+##*:has(> a[href*="1129655"]) + div.windowbg
+
+##tr:has([id*="1129761"])
+##*:has(> a[href*="1129761"])
+##*:has(> a[href*="1129761"]) + div.windowbg
+
+##tr:has([id*="1129823"])
+##*:has(> a[href*="1129823"])
+##*:has(> a[href*="1129823"]) + div.windowbg
+
+##tr:has([id*="1129891"])
+##*:has(> a[href*="1129891"])
+##*:has(> a[href*="1129891"]) + div.windowbg
+
+##tr:has([id*="1129910"])
+##*:has(> a[href*="1129910"])
+##*:has(> a[href*="1129910"]) + div.windowbg
+
+##tr:has([id*="1129925"])
+##*:has(> a[href*="1129925"])
+##*:has(> a[href*="1129925"]) + div.windowbg
+
+##tr:has([id*="1129976"])
+##*:has(> a[href*="1129976"])
+##*:has(> a[href*="1129976"]) + div.windowbg
+
+##tr:has([id*="1130102"])
+##*:has(> a[href*="1130102"])
+##*:has(> a[href*="1130102"]) + div.windowbg
+
+##tr:has([id*="1130115"])
+##*:has(> a[href*="1130115"])
+##*:has(> a[href*="1130115"]) + div.windowbg
+
+##tr:has([id*="1130169"])
+##*:has(> a[href*="1130169"])
+##*:has(> a[href*="1130169"]) + div.windowbg
+
+##tr:has([id*="1130310"])
+##*:has(> a[href*="1130310"])
+##*:has(> a[href*="1130310"]) + div.windowbg
+
+##tr:has([id*="1131044"])
+##*:has(> a[href*="1131044"])
+##*:has(> a[href*="1131044"]) + div.windowbg
+
+##tr:has([id*="1131055"])
+##*:has(> a[href*="1131055"])
+##*:has(> a[href*="1131055"]) + div.windowbg
+
+##tr:has([id*="1131115"])
+##*:has(> a[href*="1131115"])
+##*:has(> a[href*="1131115"]) + div.windowbg
+
+##tr:has([id*="1131289"])
+##*:has(> a[href*="1131289"])
+##*:has(> a[href*="1131289"]) + div.windowbg
+
+##tr:has([id*="1131304"])
+##*:has(> a[href*="1131304"])
+##*:has(> a[href*="1131304"]) + div.windowbg
+
+##tr:has([id*="1131349"])
+##*:has(> a[href*="1131349"])
+##*:has(> a[href*="1131349"]) + div.windowbg
+
+##tr:has([id*="1131433"])
+##*:has(> a[href*="1131433"])
+##*:has(> a[href*="1131433"]) + div.windowbg
+
+##tr:has([id*="1131450"])
+##*:has(> a[href*="1131450"])
+##*:has(> a[href*="1131450"]) + div.windowbg
+
+##tr:has([id*="1131497"])
+##*:has(> a[href*="1131497"])
+##*:has(> a[href*="1131497"]) + div.windowbg
+
+##tr:has([id*="1131509"])
+##*:has(> a[href*="1131509"])
+##*:has(> a[href*="1131509"]) + div.windowbg
+
+##tr:has([id*="1131530"])
+##*:has(> a[href*="1131530"])
+##*:has(> a[href*="1131530"]) + div.windowbg
+
+##tr:has([id*="1131539"])
+##*:has(> a[href*="1131539"])
+##*:has(> a[href*="1131539"]) + div.windowbg
+
+##tr:has([id*="1131704"])
+##*:has(> a[href*="1131704"])
+##*:has(> a[href*="1131704"]) + div.windowbg
+
+##tr:has([id*="1131770"])
+##*:has(> a[href*="1131770"])
+##*:has(> a[href*="1131770"]) + div.windowbg
+
+##tr:has([id*="1131917"])
+##*:has(> a[href*="1131917"])
+##*:has(> a[href*="1131917"]) + div.windowbg
+
+##tr:has([id*="1131934"])
+##*:has(> a[href*="1131934"])
+##*:has(> a[href*="1131934"]) + div.windowbg
+
+##tr:has([id*="1131954"])
+##*:has(> a[href*="1131954"])
+##*:has(> a[href*="1131954"]) + div.windowbg
+
+##tr:has([id*="1132109"])
+##*:has(> a[href*="1132109"])
+##*:has(> a[href*="1132109"]) + div.windowbg
+
+##tr:has([id*="1132216"])
+##*:has(> a[href*="1132216"])
+##*:has(> a[href*="1132216"]) + div.windowbg
+
+##tr:has([id*="1132395"])
+##*:has(> a[href*="1132395"])
+##*:has(> a[href*="1132395"]) + div.windowbg
+
+##tr:has([id*="1132400"])
+##*:has(> a[href*="1132400"])
+##*:has(> a[href*="1132400"]) + div.windowbg
+
+##tr:has([id*="1132725"])
+##*:has(> a[href*="1132725"])
+##*:has(> a[href*="1132725"]) + div.windowbg
+
+##tr:has([id*="1132862"])
+##*:has(> a[href*="1132862"])
+##*:has(> a[href*="1132862"]) + div.windowbg
+
+##tr:has([id*="1132912"])
+##*:has(> a[href*="1132912"])
+##*:has(> a[href*="1132912"]) + div.windowbg
+
+##tr:has([id*="1132995"])
+##*:has(> a[href*="1132995"])
+##*:has(> a[href*="1132995"]) + div.windowbg
+
+##tr:has([id*="1133016"])
+##*:has(> a[href*="1133016"])
+##*:has(> a[href*="1133016"]) + div.windowbg
+
+##tr:has([id*="1133328"])
+##*:has(> a[href*="1133328"])
+##*:has(> a[href*="1133328"]) + div.windowbg
+
+##tr:has([id*="1133348"])
+##*:has(> a[href*="1133348"])
+##*:has(> a[href*="1133348"]) + div.windowbg
+
+##tr:has([id*="1133375"])
+##*:has(> a[href*="1133375"])
+##*:has(> a[href*="1133375"]) + div.windowbg
+
+##tr:has([id*="724056"])
+##*:has(> a[href*="724056"])
+##*:has(> a[href*="724056"]) + div.windowbg
+
+##tr:has([id*="894231"])
+##*:has(> a[href*="894231"])
+##*:has(> a[href*="894231"]) + div.windowbg
+
 ##tr:has([id*="1011784"])
 ##*:has(> a[href*="1011784"])
 ##*:has(> a[href*="1011784"]) + div.windowbg
 
-##tr:has([id*="1096501"])
-##*:has(> a[href*="1096501"])
-##*:has(> a[href*="1096501"]) + div.windowbg
+##tr:has([id*="1047220"])
+##*:has(> a[href*="1047220"])
+##*:has(> a[href*="1047220"]) + div.windowbg
 
-##tr:has([id*="1121224"])
-##*:has(> a[href*="1121224"])
-##*:has(> a[href*="1121224"]) + div.windowbg
+##tr:has([id*="1070758"])
+##*:has(> a[href*="1070758"])
+##*:has(> a[href*="1070758"]) + div.windowbg
 
-##tr:has([id*="1119710"])
-##*:has(> a[href*="1119710"])
-##*:has(> a[href*="1119710"]) + div.windowbg
-
-##tr:has([id*="1121765"])
-##*:has(> a[href*="1121765"])
-##*:has(> a[href*="1121765"]) + div.windowbg
+##tr:has([id*="1078744"])
+##*:has(> a[href*="1078744"])
+##*:has(> a[href*="1078744"]) + div.windowbg
 
 ##tr:has([id*="1089621"])
 ##*:has(> a[href*="1089621"])
 ##*:has(> a[href*="1089621"]) + div.windowbg
 
+##tr:has([id*="1093626"])
+##*:has(> a[href*="1093626"])
+##*:has(> a[href*="1093626"]) + div.windowbg
+
+##tr:has([id*="1096501"])
+##*:has(> a[href*="1096501"])
+##*:has(> a[href*="1096501"]) + div.windowbg
+
 ##tr:has([id*="1096583"])
 ##*:has(> a[href*="1096583"])
 ##*:has(> a[href*="1096583"]) + div.windowbg
-
-##tr:has([id*="1121214"])
-##*:has(> a[href*="1121214"])
-##*:has(> a[href*="1121214"]) + div.windowbg
-
-##tr:has([id*="1121544"])
-##*:has(> a[href*="1121544"])
-##*:has(> a[href*="1121544"]) + div.windowbg
-
-##tr:has([id*="1121384"])
-##*:has(> a[href*="1121384"])
-##*:has(> a[href*="1121384"]) + div.windowbg
-
-##tr:has([id*="1112814"])
-##*:has(> a[href*="1112814"])
-##*:has(> a[href*="1112814"]) + div.windowbg
-
-##tr:has([id*="1121021"])
-##*:has(> a[href*="1121021"])
-##*:has(> a[href*="1121021"]) + div.windowbg
-
-##tr:has([id*="1120875"])
-##*:has(> a[href*="1120875"])
-##*:has(> a[href*="1120875"]) + div.windowbg
-
-##tr:has([id*="1121135"])
-##*:has(> a[href*="1121135"])
-##*:has(> a[href*="1121135"]) + div.windowbg
-
-##tr:has([id*="1121035"])
-##*:has(> a[href*="1121035"])
-##*:has(> a[href*="1121035"]) + div.windowbg
-
-##tr:has([id*="1121018"])
-##*:has(> a[href*="1121018"])
-##*:has(> a[href*="1121018"]) + div.windowbg
-
-##tr:has([id*="1114240"])
-##*:has(> a[href*="1114240"])
-##*:has(> a[href*="1114240"]) + div.windowbg
-
-##tr:has([id*="1112428"])
-##*:has(> a[href*="1112428"])
-##*:has(> a[href*="1112428"]) + div.windowbg
-
-##tr:has([id*="1119137"])
-##*:has(> a[href*="1119137"])
-##*:has(> a[href*="1119137"]) + div.windowbg
-
-##tr:has([id*="1102838"])
-##*:has(> a[href*="1102838"])
-##*:has(> a[href*="1102838"]) + div.windowbg
-
-##tr:has([id*="1120705"])
-##*:has(> a[href*="1120705"])
-##*:has(> a[href*="1120705"]) + div.windowbg
-
-##tr:has([id*="1120734"])
-##*:has(> a[href*="1120734"])
-##*:has(> a[href*="1120734"]) + div.windowbg
-
-##tr:has([id*="1111680"])
-##*:has(> a[href*="1111680"])
-##*:has(> a[href*="1111680"]) + div.windowbg
-
-##tr:has([id*="1120791"])
-##*:has(> a[href*="1120791"])
-##*:has(> a[href*="1120791"]) + div.windowbg
-
-##tr:has([id*="1120696"])
-##*:has(> a[href*="1120696"])
-##*:has(> a[href*="1120696"]) + div.windowbg
-
-##tr:has([id*="1120786"])
-##*:has(> a[href*="1120786"])
-##*:has(> a[href*="1120786"]) + div.windowbg
-
-##tr:has([id*="1120602"])
-##*:has(> a[href*="1120602"])
-##*:has(> a[href*="1120602"]) + div.windowbg
-
-##tr:has([id*="1119388"])
-##*:has(> a[href*="1119388"])
-##*:has(> a[href*="1119388"]) + div.windowbg
-
-##tr:has([id*="1120693"])
-##*:has(> a[href*="1120693"])
-##*:has(> a[href*="1120693"]) + div.windowbg
-
-##tr:has([id*="1118963"])
-##*:has(> a[href*="1118963"])
-##*:has(> a[href*="1118963"]) + div.windowbg
-
-##tr:has([id*="1113771"])
-##*:has(> a[href*="1113771"])
-##*:has(> a[href*="1113771"]) + div.windowbg
-
-##tr:has([id*="1062836"])
-##*:has(> a[href*="1062836"])
-##*:has(> a[href*="1062836"]) + div.windowbg
-
-##tr:has([id*="1095981"])
-##*:has(> a[href*="1095981"])
-##*:has(> a[href*="1095981"]) + div.windowbg
-
-##tr:has([id*="1102813"])
-##*:has(> a[href*="1102813"])
-##*:has(> a[href*="1102813"]) + div.windowbg
-
-##tr:has([id*="1111251"])
-##*:has(> a[href*="1111251"])
-##*:has(> a[href*="1111251"]) + div.windowbg
-
-##tr:has([id*="1119427"])
-##*:has(> a[href*="1119427"])
-##*:has(> a[href*="1119427"]) + div.windowbg
-
-##tr:has([id*="1110293"])
-##*:has(> a[href*="1110293"])
-##*:has(> a[href*="1110293"]) + div.windowbg
 
 ##tr:has([id*="1111729"])
 ##*:has(> a[href*="1111729"])
 ##*:has(> a[href*="1111729"]) + div.windowbg
 
-##tr:has([id*="1118108"])
-##*:has(> a[href*="1118108"])
-##*:has(> a[href*="1118108"]) + div.windowbg
-
-##tr:has([id*="1119697"])
-##*:has(> a[href*="1119697"])
-##*:has(> a[href*="1119697"]) + div.windowbg
-
-##tr:has([id*="1119656"])
-##*:has(> a[href*="1119656"])
-##*:has(> a[href*="1119656"]) + div.windowbg
-
-##tr:has([id*="1119615"])
-##*:has(> a[href*="1119615"])
-##*:has(> a[href*="1119615"]) + div.windowbg
-
-##tr:has([id*="1115442"])
-##*:has(> a[href*="1115442"])
-##*:has(> a[href*="1115442"]) + div.windowbg
-
-##tr:has([id*="1078893"])
-##*:has(> a[href*="1078893"])
-##*:has(> a[href*="1078893"]) + div.windowbg
-
-##tr:has([id*="1080420"])
-##*:has(> a[href*="1080420"])
-##*:has(> a[href*="1080420"]) + div.windowbg
-
-##tr:has([id*="1108117"])
-##*:has(> a[href*="1108117"])
-##*:has(> a[href*="1108117"]) + div.windowbg
-
-##tr:has([id*="1098239"])
-##*:has(> a[href*="1098239"])
-##*:has(> a[href*="1098239"]) + div.windowbg
-
-##tr:has([id*="1118316"])
-##*:has(> a[href*="1118316"])
-##*:has(> a[href*="1118316"]) + div.windowbg
-
-##tr:has([id*="1117085"])
-##*:has(> a[href*="1117085"])
-##*:has(> a[href*="1117085"]) + div.windowbg
-
-##tr:has([id*="1118104"])
-##*:has(> a[href*="1118104"])
-##*:has(> a[href*="1118104"]) + div.windowbg
-
-##tr:has([id*="1110359"])
-##*:has(> a[href*="1110359"])
-##*:has(> a[href*="1110359"]) + div.windowbg
-
-##tr:has([id*="1118311"])
-##*:has(> a[href*="1118311"])
-##*:has(> a[href*="1118311"]) + div.windowbg
-
-##tr:has([id*="1116836"])
-##*:has(> a[href*="1116836"])
-##*:has(> a[href*="1116836"]) + div.windowbg
-
-##tr:has([id*="1111807"])
-##*:has(> a[href*="1111807"])
-##*:has(> a[href*="1111807"]) + div.windowbg
-
-!FOREVER YOU SPA RIVER VALLEY 62355308
-##tr:has([id*="1117003"])
-##*:has(> a[href*="1117003"])
-##*:has(> a[href*="1117003"]) + div.windowbg
-
-!PLAYFUL FLIRTY & TEMPTING LADIES!! BEDOK AREA
-##tr:has([id*="1116681"])
-##*:has(> a[href*="1116681"])
-##*:has(> a[href*="1116681"]) + div.windowbg
-
-!Y2 SPA UPPER BOON KENG ROAD  69807290
-##tr:has([id*="1115955"])
-##*:has(> a[href*="1115955"])
-##*:has(> a[href*="1115955"]) + div.windowbg
-
-!MU Wellness at Bedok Reservoir! Cute & Bubbly MLs!
-##tr:has([id*="1111032"])
-##*:has(> a[href*="1111032"])
-##*:has(> a[href*="1111032"]) + div.windowbg
-
-!Lavender: Fresh D-Cup SYT Newbie & Wild Queens!
-##tr:has([id*="1112723"])
-##*:has(> a[href*="1112723"])
-##*:has(> a[href*="1112723"]) + div.windowbg
-
-!Kembangan: Natural-D SYT & Slim Model!
-##tr:has([id*="1111179"])
-##*:has(> a[href*="1111179"])
-##*:has(> a[href*="1111179"]) + div.windowbg
-
-!East Coast SYTs & Natural D-Cups!
-##tr:has([id*="1118772"])
-##*:has(> a[href*="1118772"])
-##*:has(> a[href*="1118772"]) + div.windowbg
-
-!West Coast: Petite Babes! IPL & Facial!
-##tr:has([id*="1109436"])
-##*:has(> a[href*="1109436"])
-##*:has(> a[href*="1109436"]) + div.windowbg
-
-!Bugis: Model Quality Slim Bod SYT
-##tr:has([id*="1108431"])
-##*:has(> a[href*="1108431"])
-##*:has(> a[href*="1108431"]) + div.windowbg
-
-!SYT TianTian: Innocent GND, Fresh to Industry!
-##tr:has([id*="1107441"])
-##*:has(> a[href*="1107441"])
-##*:has(> a[href*="1107441"]) + div.windowbg
-
-!SUNNY YANG SHENG GE MAXWELL MRT/BANDA ST
-##tr:has([id*="1103134"])
-##*:has(> a[href*="1103134"])
-##*:has(> a[href*="1103134"]) + div.windowbg
-
-!Crown Spa @ 10 Mohamed Sultan Road
-##tr:has([id*="1107708"])
-##*:has(> a[href*="1107708"])
-##*:has(> a[href*="1107708"]) + div.windowbg
-
-!Sexy Good-Looking MILF! @ Macpherson
-##tr:has([id*="1071971"])
-##*:has(> a[href*="1071971"])
-##*:has(> a[href*="1071971"]) + div.windowbg
-
-!Kimmy Thai massage, Juagen 抓根 Prostate & Nuru
-##tr:has([id*="1099102"])
-##*:has(> a[href*="1099102"])
-##*:has(> a[href*="1099102"]) + div.windowbg
-
-!Tiong-Brix Gems Adorable Viets & China Beauties  Naughty Fun Awaits!
-##tr:has([id*="1107078"])
-##*:has(> a[href*="1107078"])
-##*:has(> a[href*="1107078"]) + div.windowbg
-
-!Balestier Local SG & SYTs! (Previously Kembangan)
-##tr:has([id*="1106656"])
-##*:has(> a[href*="1106656"])
-##*:has(> a[href*="1106656"]) + div.windowbg
-
-!Boon Keng's Bbbj Gems! CoF & CiM!!
-##tr:has([id*="1106161"])
-##*:has(> a[href*="1106161"])
-##*:has(> a[href*="1106161"]) + div.windowbg
-
-!Kitchener E-Cup Boobs & Slim Dancer!
-##tr:has([id*="1105138"])
-##*:has(> a[href*="1105138"])
-##*:has(> a[href*="1105138"]) + div.windowbg
-
-!Bartley's Service Queens: Bbbj, CIM, One-Dragon & More!
-##tr:has([id*="1100878"])
-##*:has(> a[href*="1100878"])
-##*:has(> a[href*="1100878"]) + div.windowbg
-
-!Hong Spa @ 82A Serangoon Garden Way
-##tr:has([id*="1084390"])
-##*:has(> a[href*="1084390"])
-##*:has(> a[href*="1084390"]) + div.windowbg
-
-!Forever Spa @ River Valley Area
-##tr:has([id*="1089379"])
-##*:has(> a[href*="1089379"])
-##*:has(> a[href*="1089379"]) + div.windowbg
-
-!Hito Iki Spa @ 35 Telok Blangah Rise
-##tr:has([id*="1095301"])
-##*:has(> a[href*="1095301"])
-##*:has(> a[href*="1095301"]) + div.windowbg
-
-!Brand New Shop @ pal Crescent
-##tr:has([id*="1095600"])
-##*:has(> a[href*="1095600"])
-##*:has(> a[href*="1095600"]) + div.windowbg
-
-!Doris E cup Natural Soft Teasing Services Jap B2B Massage & More Services
-##tr:has([id*="1095700"])
-##*:has(> a[href*="1095700"])
-##*:has(> a[href*="1095700"]) + div.windowbg
-
-!YoYo Sexy,charming, naturally plump 36D Which outfit should, wear to serve you.
-##tr:has([id*="1095696"])
-##*:has(> a[href*="1095696"])
-##*:has(> a[href*="1095696"]) + div.windowbg
-
-!BIGGG Boobs Lovers Joint Near Jalan Besar
-##tr:has([id*="1093648"])
-##*:has(> a[href*="1093648"])
-##*:has(> a[href*="1093648"]) + div.windowbg
-
-!Huge Cozy Spa With Beautiful MLs @North Bridge Road (Open 24 Hours)
-##tr:has([id*="1095695"])
-##*:has(> a[href*="1095695"])
-##*:has(> a[href*="1095695"]) + div.windowbg
-
-!Chio Slim SYTs @ Heartlands AMK!
-##tr:has([id*="1082141"])
-##*:has(> a[href*="1082141"])
-##*:has(> a[href*="1082141"]) + div.windowbg
-
-!Hebe: 22yo, Natural-D Cup, Sexy KTV Model!
-##tr:has([id*="1095661"])
-##*:has(> a[href*="1095661"])
-##*:has(> a[href*="1095661"]) + div.windowbg
-
-!Viet SYT Anna: High GFE, Slim, Sexy & Playful!
-##tr:has([id*="1095735"])
-##*:has(> a[href*="1095735"])
-##*:has(> a[href*="1095735"]) + div.windowbg
-
-!Cherry: 23yo Wild & Playful Bombshell
-##tr:has([id*="1095798"])
-##*:has(> a[href*="1095798"])
-##*:has(> a[href*="1095798"]) + div.windowbg
-
-!Pinky: 24yo Skinny Viet Natural Beauty!
-##tr:has([id*="1094874"])
-##*:has(> a[href*="1094874"])
-##*:has(> a[href*="1094874"]) + div.windowbg
-
-!Ling Pretty Busty, Her GFE tops the chart with her irresistible foxiness
-##tr:has([id*="1095317"])
-##*:has(> a[href*="1095317"])
-##*:has(> a[href*="1095317"]) + div.windowbg
-
-!Feminine Lady Providing Hair Spa & Ear Digging/IPL
-##tr:has([id*="1092486"])
-##*:has(> a[href*="1092486"])
-##*:has(> a[href*="1092486"]) + div.windowbg
-
-!Nice & Relaxing Spa Near Bugis Area With Skillful & Pretty ML
-##tr:has([id*="1093492"])
-##*:has(> a[href*="1093492"])
-##*:has(> a[href*="1093492"]) + div.windowbg
-
-!Cozy Delightful Spa in town
-##tr:has([id*="1093771"])
-##*:has(> a[href*="1093771"])
-##*:has(> a[href*="1093771"]) + div.windowbg
-
-!Welcome Ji Yan TCM will have a feeling of relaxation and comfort
-##tr:has([id*="1093606"])
-##*:has(> a[href*="1093606"])
-##*:has(> a[href*="1093606"]) + div.windowbg
-
-!Yo Yo Sexy & Slim with surprisingly huge best part is her GFE 
-##tr:has([id*="1093585"])
-##*:has(> a[href*="1093585"])
-##*:has(> a[href*="1093585"]) + div.windowbg
-
-!Wellness Moments @ Bugis Cube Everyone Deserves A Little Pampering
-##tr:has([id*="1048892"])
-##*:has(> a[href*="1048892"])
-##*:has(> a[href*="1048892"]) + div.windowbg
-
-!Tang Tang- Soild Max GFE Lady here to serve you
-##tr:has([id*="1083720"])
-##*:has(> a[href*="1083720"])
-##*:has(> a[href*="1083720"]) + div.windowbg
-
-!Bee SPA@7500A Beach Road #01-303 The Plaza S'pore 199591
-##tr:has([id*="1085657"])
-##*:has(> a[href*="1085657"])
-##*:has(> a[href*="1085657"]) + div.windowbg
-
-!Nova Wellness@ Upper Boon Keng, Wonderful feeling of relaxing
-##tr:has([id*="1087932"])
-##*:has(> a[href*="1087932"])
-##*:has(> a[href*="1087932"]) + div.windowbg
-
-!Welcome MoMo Wellness Spa Location @520 North Bridge Rd #05-01
-##tr:has([id*="1085880"])
-##*:has(> a[href*="1085880"])
-##*:has(> a[href*="1085880"]) + div.windowbg
-
-!E3 Wellness Spa Location@520 North Bridge Rd #02~01 Wisma Alsagoff S'pore 188742
-##tr:has([id*="1085653"])
-##*:has(> a[href*="1085653"])
-##*:has(> a[href*="1085653"]) + div.windowbg
-
-!Wendy Sexy and charming figure her soft tongue wrapped around Yr JJ
-##tr:has([id*="1093613"])
-##*:has(> a[href*="1093613"])
-##*:has(> a[href*="1093613"]) + div.windowbg
-
-!Relaxing spa in Moonstone area with model quality
-##tr:has([id*="1078744"])
-##*:has(> a[href*="1078744"])
-##*:has(> a[href*="1078744"]) + div.windowbg
-
-!Slim D cups Office Lady Lookalike with Long Hair, Foxy Look and in Yoga Pants!
-##tr:has([id*="1078933"])
-##*:has(> a[href*="1078933"])
-##*:has(> a[href*="1078933"]) + div.windowbg
-
-!Hanna: 22 years old young viet 38D
-##tr:has([id*="1094559"])
-##*:has(> a[href*="1094559"])
-##*:has(> a[href*="1094559"]) + div.windowbg
-
-!le le: new sexy photos of her in bikini
-##tr:has([id*="1092075"])
-##*:has(> a[href*="1092075"])
-##*:has(> a[href*="1092075"]) + div.windowbg
-
-!Lisa Pretty Busty, Her GFE tops the chart with her irresistible foxiness
-##tr:has([id*="1094647"])
-##*:has(> a[href*="1094647"])
-##*:has(> a[href*="1094647"]) + div.windowbg
-
-!Lucy Pretty With Extraordinaire Sexy, Playful Massage
-##tr:has([id*="1094644"])
-##*:has(> a[href*="1094644"])
-##*:has(> a[href*="1094644"]) + div.windowbg
-
-!Sexy Babe Great Body Line Discreet beauty parlour located at Beach Rd
-##tr:has([id*="1093626"])
-##*:has(> a[href*="1093626"])
-##*:has(> a[href*="1093626"]) + div.windowbg
-
-!Pretty & Sweet Babe Whole Body Msg, Good Companion & Service Location Sims Ave
-##tr:has([id*="1093570"])
-##*:has(> a[href*="1093570"])
-##*:has(> a[href*="1093570"]) + div.windowbg
-
-!Slim & Sexy Viets! 21yo KTV Model Just Arrived! @ Farrer Park
-##tr:has([id*="1087031"])
-##*:has(> a[href*="1087031"])
-##*:has(> a[href*="1087031"]) + div.windowbg
-
-!Katong Slender Babes! Playful & Teasing!
-##tr:has([id*="1086922"])
-##*:has(> a[href*="1086922"])
-##*:has(> a[href*="1086922"]) + div.windowbg
-
-!Slim Chinese Cuties & Dancer!! @ TPY
-##tr:has([id*="1084266"])
-##*:has(> a[href*="1084266"])
-##*:has(> a[href*="1084266"]) + div.windowbg
-
-!24yo Macau & more SYTs! @ Jalan Besar
-##tr:has([id*="1044691"])
-##*:has(> a[href*="1044691"])
-##*:has(> a[href*="1044691"]) + div.windowbg
-
-!Cute & Sweet Gems! @ Eunos (Previously Paya Lebar)
-##tr:has([id*="1053097"])
-##*:has(> a[href*="1053097"])
-##*:has(> a[href*="1053097"]) + div.windowbg
-
-!Fresh to Industry, Young Pretty SYTs! @ Geylang
-##tr:has([id*="1083851"])
-##*:has(> a[href*="1083851"])
-##*:has(> a[href*="1083851"]) + div.windowbg
-
-!(New Girls Updated!!) Taiwanese & Boob Lovers! @ Kitchener Road
-##tr:has([id*="1058311"])
-##*:has(> a[href*="1058311"])
-##*:has(> a[href*="1058311"]) + div.windowbg
-
-!Eunos B2B Nuru & Slim SYTs!!
-##tr:has([id*="1092360"])
-##*:has(> a[href*="1092360"])
-##*:has(> a[href*="1092360"]) + div.windowbg
-
-!(New Girls Update!) Chio Sexy SYTs @ Taiseng
-##tr:has([id*="1071617"])
-##*:has(> a[href*="1071617"])
-##*:has(> a[href*="1071617"]) + div.windowbg
-
+##tr:has([id*="1112428"])
+##*:has(> a[href*="1112428"])
+##*:has(> a[href*="1112428"]) + div.windowbg
+
+##tr:has([id*="1115653"])
+##*:has(> a[href*="1115653"])
+##*:has(> a[href*="1115653"]) + div.windowbg
+
+##tr:has([id*="1120693"])
+##*:has(> a[href*="1120693"])
+##*:has(> a[href*="1120693"]) + div.windowbg
+
+##tr:has([id*="1125587"])
+##*:has(> a[href*="1125587"])
+##*:has(> a[href*="1125587"]) + div.windowbg
+
+##tr:has([id*="1125847"])
+##*:has(> a[href*="1125847"])
+##*:has(> a[href*="1125847"]) + div.windowbg
+
+##tr:has([id*="1125950"])
+##*:has(> a[href*="1125950"])
+##*:has(> a[href*="1125950"]) + div.windowbg
+
+##tr:has([id*="1127879"])
+##*:has(> a[href*="1127879"])
+##*:has(> a[href*="1127879"]) + div.windowbg
+
+##tr:has([id*="1129085"])
+##*:has(> a[href*="1129085"])
+##*:has(> a[href*="1129085"]) + div.windowbg
+
+##tr:has([id*="1131210"])
+##*:has(> a[href*="1131210"])
+##*:has(> a[href*="1131210"]) + div.windowbg
+
+##tr:has([id*="1131817"])
+##*:has(> a[href*="1131817"])
+##*:has(> a[href*="1131817"]) + div.windowbg
+
+##tr:has([id*="1131987"])
+##*:has(> a[href*="1131987"])
+##*:has(> a[href*="1131987"]) + div.windowbg
+
+##tr:has([id*="1133376"])
+##*:has(> a[href*="1133376"])
+##*:has(> a[href*="1133376"]) + div.windowbg
 !------------------------------------------------------------The Sammyboy link/Picture exchange Plaza [Restricted - Members only]----------
 ##tr:has([id*="475776"])
 ##*:has(> a[href*="475776"])
