@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: SBF Advertiser Spam Blocker
 ! Expires: 23 hours (update frequency)
-! Last modified: 02 Sep 2026 06:05:47 +0800
+! Last modified: 03 Sep 2026 06:05:46 +0800
 
 !------------------------------Site Banners---------------------------
 ||sammyboyforum.com/bannergraphics/
@@ -485,10 +485,6 @@
 ##*:has(> a[href*="1127626"])
 ##*:has(> a[href*="1127626"]) + div.windowbg
 
-##tr:has([id*="1127669"])
-##*:has(> a[href*="1127669"])
-##*:has(> a[href*="1127669"]) + div.windowbg
-
 ##tr:has([id*="1127738"])
 ##*:has(> a[href*="1127738"])
 ##*:has(> a[href*="1127738"]) + div.windowbg
@@ -577,10 +573,6 @@
 ##*:has(> a[href*="1131304"])
 ##*:has(> a[href*="1131304"]) + div.windowbg
 
-##tr:has([id*="1131349"])
-##*:has(> a[href*="1131349"])
-##*:has(> a[href*="1131349"]) + div.windowbg
-
 ##tr:has([id*="1131433"])
 ##*:has(> a[href*="1131433"])
 ##*:has(> a[href*="1131433"]) + div.windowbg
@@ -592,14 +584,6 @@
 ##tr:has([id*="1131497"])
 ##*:has(> a[href*="1131497"])
 ##*:has(> a[href*="1131497"]) + div.windowbg
-
-##tr:has([id*="1131509"])
-##*:has(> a[href*="1131509"])
-##*:has(> a[href*="1131509"]) + div.windowbg
-
-##tr:has([id*="1131530"])
-##*:has(> a[href*="1131530"])
-##*:has(> a[href*="1131530"]) + div.windowbg
 
 ##tr:has([id*="1131539"])
 ##*:has(> a[href*="1131539"])
@@ -701,10 +685,6 @@
 ##*:has(> a[href*="1134259"])
 ##*:has(> a[href*="1134259"]) + div.windowbg
 
-##tr:has([id*="1134474"])
-##*:has(> a[href*="1134474"])
-##*:has(> a[href*="1134474"]) + div.windowbg
-
 ##tr:has([id*="1134482"])
 ##*:has(> a[href*="1134482"])
 ##*:has(> a[href*="1134482"]) + div.windowbg
@@ -797,6 +777,22 @@
 ##*:has(> a[href*="1136639"])
 ##*:has(> a[href*="1136639"]) + div.windowbg
 
+##tr:has([id*="1136718"])
+##*:has(> a[href*="1136718"])
+##*:has(> a[href*="1136718"]) + div.windowbg
+
+##tr:has([id*="1136760"])
+##*:has(> a[href*="1136760"])
+##*:has(> a[href*="1136760"]) + div.windowbg
+
+##tr:has([id*="1136798"])
+##*:has(> a[href*="1136798"])
+##*:has(> a[href*="1136798"]) + div.windowbg
+
+##tr:has([id*="1136885"])
+##*:has(> a[href*="1136885"])
+##*:has(> a[href*="1136885"]) + div.windowbg
+
 ##tr:has([id*="724056"])
 ##*:has(> a[href*="724056"])
 ##*:has(> a[href*="724056"]) + div.windowbg
@@ -853,14 +849,6 @@
 ##*:has(> a[href*="1120693"])
 ##*:has(> a[href*="1120693"]) + div.windowbg
 
-##tr:has([id*="1125076"])
-##*:has(> a[href*="1125076"])
-##*:has(> a[href*="1125076"]) + div.windowbg
-
-##tr:has([id*="1125587"])
-##*:has(> a[href*="1125587"])
-##*:has(> a[href*="1125587"]) + div.windowbg
-
 ##tr:has([id*="1125671"])
 ##*:has(> a[href*="1125671"])
 ##*:has(> a[href*="1125671"]) + div.windowbg
@@ -869,33 +857,17 @@
 ##*:has(> a[href*="1125847"])
 ##*:has(> a[href*="1125847"]) + div.windowbg
 
-##tr:has([id*="1125950"])
-##*:has(> a[href*="1125950"])
-##*:has(> a[href*="1125950"]) + div.windowbg
-
 ##tr:has([id*="1127930"])
 ##*:has(> a[href*="1127930"])
 ##*:has(> a[href*="1127930"]) + div.windowbg
-
-##tr:has([id*="1128335"])
-##*:has(> a[href*="1128335"])
-##*:has(> a[href*="1128335"]) + div.windowbg
 
 ##tr:has([id*="1129015"])
 ##*:has(> a[href*="1129015"])
 ##*:has(> a[href*="1129015"]) + div.windowbg
 
-##tr:has([id*="1129085"])
-##*:has(> a[href*="1129085"])
-##*:has(> a[href*="1129085"]) + div.windowbg
-
 ##tr:has([id*="1131210"])
 ##*:has(> a[href*="1131210"])
 ##*:has(> a[href*="1131210"]) + div.windowbg
-
-##tr:has([id*="1131817"])
-##*:has(> a[href*="1131817"])
-##*:has(> a[href*="1131817"]) + div.windowbg
 
 ##tr:has([id*="1131987"])
 ##*:has(> a[href*="1131987"])
@@ -904,10 +876,6 @@
 ##tr:has([id*="1133376"])
 ##*:has(> a[href*="1133376"])
 ##*:has(> a[href*="1133376"]) + div.windowbg
-
-##tr:has([id*="1134067"])
-##*:has(> a[href*="1134067"])
-##*:has(> a[href*="1134067"]) + div.windowbg
 
 ##tr:has([id*="1134234"])
 ##*:has(> a[href*="1134234"])
@@ -932,3 +900,7 @@
 ##tr:has([id*="1136427"])
 ##*:has(> a[href*="1136427"])
 ##*:has(> a[href*="1136427"]) + div.windowbg
+
+##tr:has([id*="1136888"])
+##*:has(> a[href*="1136888"])
+##*:has(> a[href*="1136888"]) + div.windowbg
