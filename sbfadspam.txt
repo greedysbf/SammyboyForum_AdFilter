@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: SBF Advertiser Spam Blocker
 ! Expires: 23 hours (update frequency)
-! Last modified: 11 Sep 2026 06:05:46 +0800
+! Last modified: 12 Sep 2026 06:05:46 +0800
 
 !------------------------------Site Banners---------------------------
 ||sammyboyforum.com/bannergraphics/
@@ -560,10 +560,6 @@
 ##tr:has([id*="1132995"])
 ##*:has(> a[href*="1132995"])
 ##*:has(> a[href*="1132995"]) + div.windowbg
-
-##tr:has([id*="1133016"])
-##*:has(> a[href*="1133016"])
-##*:has(> a[href*="1133016"]) + div.windowbg
 
 ##tr:has([id*="1133348"])
 ##*:has(> a[href*="1133348"])
