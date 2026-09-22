@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: SBF Advertiser Spam Blocker
 ! Expires: 23 hours (update frequency)
-! Last modified: 21 Sep 2026 06:05:46 +0800
+! Last modified: 22 Sep 2026 06:05:46 +0800
 
 !------------------------------Site Banners---------------------------
 ||sammyboyforum.com/bannergraphics/
@@ -457,10 +457,6 @@
 ##*:has(> a[href*="1127943"])
 ##*:has(> a[href*="1127943"]) + div.windowbg
 
-##tr:has([id*="1128839"])
-##*:has(> a[href*="1128839"])
-##*:has(> a[href*="1128839"]) + div.windowbg
-
 ##tr:has([id*="1128849"])
 ##*:has(> a[href*="1128849"])
 ##*:has(> a[href*="1128849"]) + div.windowbg
@@ -617,10 +613,6 @@
 ##*:has(> a[href*="1136718"])
 ##*:has(> a[href*="1136718"]) + div.windowbg
 
-##tr:has([id*="1136798"])
-##*:has(> a[href*="1136798"])
-##*:has(> a[href*="1136798"]) + div.windowbg
-
 ##tr:has([id*="1136885"])
 ##*:has(> a[href*="1136885"])
 ##*:has(> a[href*="1136885"]) + div.windowbg
@@ -712,6 +704,22 @@
 ##tr:has([id*="1140139"])
 ##*:has(> a[href*="1140139"])
 ##*:has(> a[href*="1140139"]) + div.windowbg
+
+##tr:has([id*="1140438"])
+##*:has(> a[href*="1140438"])
+##*:has(> a[href*="1140438"]) + div.windowbg
+
+##tr:has([id*="1140834"])
+##*:has(> a[href*="1140834"])
+##*:has(> a[href*="1140834"]) + div.windowbg
+
+##tr:has([id*="1140839"])
+##*:has(> a[href*="1140839"])
+##*:has(> a[href*="1140839"]) + div.windowbg
+
+##tr:has([id*="1140913"])
+##*:has(> a[href*="1140913"])
+##*:has(> a[href*="1140913"]) + div.windowbg
 
 ##tr:has([id*="724056"])
 ##*:has(> a[href*="724056"])
