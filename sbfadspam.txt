@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: SBF Advertiser Spam Blocker
 ! Expires: 23 hours (update frequency)
-! Last modified: 26 Sep 2026 06:05:46 +0800
+! Last modified: 27 Sep 2026 06:05:46 +0800
 
 !------------------------------Site Banners---------------------------
 ||sammyboyforum.com/bannergraphics/
@@ -381,6 +381,10 @@
 ##*:has(> a[href*="1102838"])
 ##*:has(> a[href*="1102838"]) + div.windowbg
 
+##tr:has([id*="1106656"])
+##*:has(> a[href*="1106656"])
+##*:has(> a[href*="1106656"]) + div.windowbg
+
 ##tr:has([id*="1108431"])
 ##*:has(> a[href*="1108431"])
 ##*:has(> a[href*="1108431"]) + div.windowbg
@@ -453,10 +457,6 @@
 ##*:has(> a[href*="1127738"])
 ##*:has(> a[href*="1127738"]) + div.windowbg
 
-##tr:has([id*="1127943"])
-##*:has(> a[href*="1127943"])
-##*:has(> a[href*="1127943"]) + div.windowbg
-
 ##tr:has([id*="1128849"])
 ##*:has(> a[href*="1128849"])
 ##*:has(> a[href*="1128849"]) + div.windowbg
@@ -465,10 +465,6 @@
 ##*:has(> a[href*="1128922"])
 ##*:has(> a[href*="1128922"]) + div.windowbg
 
-##tr:has([id*="1129422"])
-##*:has(> a[href*="1129422"])
-##*:has(> a[href*="1129422"]) + div.windowbg
-
 ##tr:has([id*="1129466"])
 ##*:has(> a[href*="1129466"])
 ##*:has(> a[href*="1129466"]) + div.windowbg
@@ -476,10 +472,6 @@
 ##tr:has([id*="1129616"])
 ##*:has(> a[href*="1129616"])
 ##*:has(> a[href*="1129616"]) + div.windowbg
-
-##tr:has([id*="1129823"])
-##*:has(> a[href*="1129823"])
-##*:has(> a[href*="1129823"]) + div.windowbg
 
 ##tr:has([id*="1129891"])
 ##*:has(> a[href*="1129891"])
@@ -492,10 +484,6 @@
 ##tr:has([id*="1129976"])
 ##*:has(> a[href*="1129976"])
 ##*:has(> a[href*="1129976"]) + div.windowbg
-
-##tr:has([id*="1131044"])
-##*:has(> a[href*="1131044"])
-##*:has(> a[href*="1131044"]) + div.windowbg
 
 ##tr:has([id*="1131055"])
 ##*:has(> a[href*="1131055"])
@@ -537,33 +525,9 @@
 ##*:has(> a[href*="1134482"])
 ##*:has(> a[href*="1134482"]) + div.windowbg
 
-##tr:has([id*="1134884"])
-##*:has(> a[href*="1134884"])
-##*:has(> a[href*="1134884"]) + div.windowbg
-
-##tr:has([id*="1134887"])
-##*:has(> a[href*="1134887"])
-##*:has(> a[href*="1134887"]) + div.windowbg
-
-##tr:has([id*="1135111"])
-##*:has(> a[href*="1135111"])
-##*:has(> a[href*="1135111"]) + div.windowbg
-
-##tr:has([id*="1135207"])
-##*:has(> a[href*="1135207"])
-##*:has(> a[href*="1135207"]) + div.windowbg
-
-##tr:has([id*="1135248"])
-##*:has(> a[href*="1135248"])
-##*:has(> a[href*="1135248"]) + div.windowbg
-
 ##tr:has([id*="1135256"])
 ##*:has(> a[href*="1135256"])
 ##*:has(> a[href*="1135256"]) + div.windowbg
-
-##tr:has([id*="1135273"])
-##*:has(> a[href*="1135273"])
-##*:has(> a[href*="1135273"]) + div.windowbg
 
 ##tr:has([id*="1135455"])
 ##*:has(> a[href*="1135455"])
@@ -597,10 +561,6 @@
 ##*:has(> a[href*="1136203"])
 ##*:has(> a[href*="1136203"]) + div.windowbg
 
-##tr:has([id*="1136253"])
-##*:has(> a[href*="1136253"])
-##*:has(> a[href*="1136253"]) + div.windowbg
-
 ##tr:has([id*="1136458"])
 ##*:has(> a[href*="1136458"])
 ##*:has(> a[href*="1136458"]) + div.windowbg
@@ -633,10 +593,6 @@
 ##*:has(> a[href*="1137580"])
 ##*:has(> a[href*="1137580"]) + div.windowbg
 
-##tr:has([id*="1137588"])
-##*:has(> a[href*="1137588"])
-##*:has(> a[href*="1137588"]) + div.windowbg
-
 ##tr:has([id*="1137858"])
 ##*:has(> a[href*="1137858"])
 ##*:has(> a[href*="1137858"]) + div.windowbg
@@ -644,10 +600,6 @@
 ##tr:has([id*="1138044"])
 ##*:has(> a[href*="1138044"])
 ##*:has(> a[href*="1138044"]) + div.windowbg
-
-##tr:has([id*="1138237"])
-##*:has(> a[href*="1138237"])
-##*:has(> a[href*="1138237"]) + div.windowbg
 
 ##tr:has([id*="1138277"])
 ##*:has(> a[href*="1138277"])
@@ -701,17 +653,9 @@
 ##*:has(> a[href*="1139932"])
 ##*:has(> a[href*="1139932"]) + div.windowbg
 
-##tr:has([id*="1140139"])
-##*:has(> a[href*="1140139"])
-##*:has(> a[href*="1140139"]) + div.windowbg
-
 ##tr:has([id*="1140438"])
 ##*:has(> a[href*="1140438"])
 ##*:has(> a[href*="1140438"]) + div.windowbg
-
-##tr:has([id*="1140834"])
-##*:has(> a[href*="1140834"])
-##*:has(> a[href*="1140834"]) + div.windowbg
 
 ##tr:has([id*="1140839"])
 ##*:has(> a[href*="1140839"])
@@ -720,6 +664,46 @@
 ##tr:has([id*="1140913"])
 ##*:has(> a[href*="1140913"])
 ##*:has(> a[href*="1140913"]) + div.windowbg
+
+##tr:has([id*="1141076"])
+##*:has(> a[href*="1141076"])
+##*:has(> a[href*="1141076"]) + div.windowbg
+
+##tr:has([id*="1141274"])
+##*:has(> a[href*="1141274"])
+##*:has(> a[href*="1141274"]) + div.windowbg
+
+##tr:has([id*="1141347"])
+##*:has(> a[href*="1141347"])
+##*:has(> a[href*="1141347"]) + div.windowbg
+
+##tr:has([id*="1141349"])
+##*:has(> a[href*="1141349"])
+##*:has(> a[href*="1141349"]) + div.windowbg
+
+##tr:has([id*="1141475"])
+##*:has(> a[href*="1141475"])
+##*:has(> a[href*="1141475"]) + div.windowbg
+
+##tr:has([id*="1141596"])
+##*:has(> a[href*="1141596"])
+##*:has(> a[href*="1141596"]) + div.windowbg
+
+##tr:has([id*="1141641"])
+##*:has(> a[href*="1141641"])
+##*:has(> a[href*="1141641"]) + div.windowbg
+
+##tr:has([id*="1141781"])
+##*:has(> a[href*="1141781"])
+##*:has(> a[href*="1141781"]) + div.windowbg
+
+##tr:has([id*="1142265"])
+##*:has(> a[href*="1142265"])
+##*:has(> a[href*="1142265"]) + div.windowbg
+
+##tr:has([id*="1142369"])
+##*:has(> a[href*="1142369"])
+##*:has(> a[href*="1142369"]) + div.windowbg
 
 ##tr:has([id*="724056"])
 ##*:has(> a[href*="724056"])
@@ -753,10 +737,6 @@
 ##*:has(> a[href*="1093468"])
 ##*:has(> a[href*="1093468"]) + div.windowbg
 
-##tr:has([id*="1093626"])
-##*:has(> a[href*="1093626"])
-##*:has(> a[href*="1093626"]) + div.windowbg
-
 ##tr:has([id*="1109433"])
 ##*:has(> a[href*="1109433"])
 ##*:has(> a[href*="1109433"]) + div.windowbg
@@ -765,17 +745,9 @@
 ##*:has(> a[href*="1111729"])
 ##*:has(> a[href*="1111729"]) + div.windowbg
 
-##tr:has([id*="1111954"])
-##*:has(> a[href*="1111954"])
-##*:has(> a[href*="1111954"]) + div.windowbg
-
 ##tr:has([id*="1119710"])
 ##*:has(> a[href*="1119710"])
 ##*:has(> a[href*="1119710"]) + div.windowbg
-
-##tr:has([id*="1120693"])
-##*:has(> a[href*="1120693"])
-##*:has(> a[href*="1120693"]) + div.windowbg
 
 ##tr:has([id*="1125671"])
 ##*:has(> a[href*="1125671"])
@@ -784,6 +756,10 @@
 ##tr:has([id*="1125833"])
 ##*:has(> a[href*="1125833"])
 ##*:has(> a[href*="1125833"]) + div.windowbg
+
+##tr:has([id*="1125847"])
+##*:has(> a[href*="1125847"])
+##*:has(> a[href*="1125847"]) + div.windowbg
 
 ##tr:has([id*="1127930"])
 ##*:has(> a[href*="1127930"])
@@ -813,14 +789,6 @@
 ##*:has(> a[href*="1134359"])
 ##*:has(> a[href*="1134359"]) + div.windowbg
 
-##tr:has([id*="1135547"])
-##*:has(> a[href*="1135547"])
-##*:has(> a[href*="1135547"]) + div.windowbg
-
-##tr:has([id*="1135550"])
-##*:has(> a[href*="1135550"])
-##*:has(> a[href*="1135550"]) + div.windowbg
-
 ##tr:has([id*="1136427"])
 ##*:has(> a[href*="1136427"])
 ##*:has(> a[href*="1136427"]) + div.windowbg
@@ -832,3 +800,19 @@
 ##tr:has([id*="1139355"])
 ##*:has(> a[href*="1139355"])
 ##*:has(> a[href*="1139355"]) + div.windowbg
+
+##tr:has([id*="1141218"])
+##*:has(> a[href*="1141218"])
+##*:has(> a[href*="1141218"]) + div.windowbg
+
+##tr:has([id*="1141770"])
+##*:has(> a[href*="1141770"])
+##*:has(> a[href*="1141770"]) + div.windowbg
+
+##tr:has([id*="1141774"])
+##*:has(> a[href*="1141774"])
+##*:has(> a[href*="1141774"]) + div.windowbg
+
+##tr:has([id*="1142271"])
+##*:has(> a[href*="1142271"])
+##*:has(> a[href*="1142271"]) + div.windowbg
