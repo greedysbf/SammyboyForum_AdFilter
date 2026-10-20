@@ -1,790 +1,321 @@
 [Adblock Plus 2.0]
 ! Title: SBF Advertiser Spam Blocker
 ! Expires: 23 hours (update frequency)
-! Last modified: 19 Oct 2026 06:05:46 +0800
+! Last modified: 20 Oct 2026 06:05:48 +0800
 
 !------------------------------Site Banners---------------------------
 ||sammyboyforum.com/bannergraphics/
 ||sammyboyforum.com/images/twitter.png
+||sbf.net.nz/bannergraphics/
+||sbf.net.nz/images/twitter.png
 ! Mobile: Block banner at the end of threads
-##div.windowbg:has(a[href*="asiangirlsnextdoor.com"])
+##.mm-postbit-ad.mm-sponsor
 ! Desktop: Block banner at the end of threads
-##table.tborder:has(img[src*="859959.jpg"])
+##table.tborder:has(img[src*="955640.jpg"])
+! Notice block at the top of the forum
+###notices
+##.mm-community-notices.mm-details
+##.mm-sponsor
+! Sticky threads at the top of every sub forum
+##tr.sbf-sticky
 !------------------------------------------------------------Keong Saik
 !BubblyxPOP
-##tr:has([id*="1071547"])
-##*:has(> a[href*="1071547"])
-##*:has(> a[href*="1071547"]) + div.windowbg
+##tr:has(> td#td_threadtitle_1071547)
 
 !------------------------------------------------------------Petain Romps
 !Thread for Exchange Points / Complaints / Reputation System Questions 
-##tr:has([id*="432327"])
-##*:has(> a[href*="432327"])
-##*:has(> a[href*="432327"]) + div.windowbg
+##tr:has(> td#td_threadtitle_432327)
 
 !------------------------------------------The Sammyboy link/Picture exchange Plaza [Restricted - Members only]----------
-##tr:has([id*="475776"])
-##*:has(> a[href*="475776"])
-##*:has(> a[href*="475776"]) + div.windowbg
+##tr:has(> td#td_threadtitle_475776)
 
 !------------------------------------------------------------JB Delights----------
-##tr:has([id*="1131775"])
-##*:has(> a[href*="1131775"])
-##*:has(> a[href*="1131775"]) + div.windowbg
+##tr:has(> td#td_threadtitle_688635)
+##tr:has(> td#td_threadtitle_659884)
+##tr:has(> td#td_threadtitle_901640)
+##tr:has(> td#td_threadtitle_1079826)
+##tr:has(> td#td_threadtitle_867619)
 
-##tr:has([id*="1131776"])
-##*:has(> a[href*="1131776"])
-##*:has(> a[href*="1131776"]) + div.windowbg
+##tr:has(> td#td_threadtitle_1144139)
+##tr:has(> td#td_threadtitle_889056)
+##tr:has(> td#td_threadtitle_693315)
+##tr:has(> td#td_threadtitle_1131776)
+##tr:has(> td#td_threadtitle_1131775)
 
-##tr:has([id*="1126340"])
-##*:has(> a[href*="1126340"])
-##*:has(> a[href*="1126340"]) + div.windowbg
-
-##tr:has([id*="1127392"])
-##*:has(> a[href*="1127392"])
-##*:has(> a[href*="1127392"]) + div.windowbg
-
-##tr:has([id*="1127393"])
-##*:has(> a[href*="1127393"])
-##*:has(> a[href*="1127393"]) + div.windowbg
-
-##tr:has([id*="1126722"])
-##*:has(> a[href*="1126722"])
-##*:has(> a[href*="1126722"]) + div.windowbg
-
-##tr:has([id*="1126339"])
-##*:has(> a[href*="1126339"])
-##*:has(> a[href*="1126339"]) + div.windowbg
-
-##tr:has([id*="1112420"])
-##*:has(> a[href*="1112420"])
-##*:has(> a[href*="1112420"]) + div.windowbg
-
-##tr:has([id*="1112419"])
-##*:has(> a[href*="1112419"])
-##*:has(> a[href*="1112419"]) + div.windowbg
-
-!JB Special Service  Sensual B2B Massage Hotel Full Service  SYT
-##tr:has([id*="1079668"])
-##*:has(> a[href*="1079668"])
-##*:has(> a[href*="1079668"]) + div.windowbg
-
-!JBGIRLESCORTS Your First Choice Escort Service At JB Area
-##tr:has([id*="1079826"])
-##*:has(> a[href*="1079826"])
-##*:has(> a[href*="1079826"]) + div.windowbg
-
-!JB KSL (4 Star Hotel Room Provided)
-##tr:has([id*="1058214"])
-##*:has(> a[href*="1058214"])
-##*:has(> a[href*="1058214"]) + div.windowbg
-
-!JB KSL Area 4 Star Hotel
-##tr:has([id*="1105367"])
-##*:has(> a[href*="1105367"])
-##*:has(> a[href*="1105367"]) + div.windowbg
-
-!Cheapest Overnight In Town At Only RM570 Onwards
-##tr:has([id*="1058215"])
-##*:has(> a[href*="1058215"])
-##*:has(> a[href*="1058215"]) + div.windowbg
-
-!Cheapest Overnight In Town From Only RM600 Onward
-##tr:has([id*="1105371"])
-##*:has(> a[href*="1105371"])
-##*:has(> a[href*="1105371"]) + div.windowbg
-
-!BET888
-##tr:has([id*="688635"])
-##*:has(> a[href*="688635"])
-##*:has(> a[href*="688635"]) + div.windowbg
-
-##tr:has([id*="688634"])
-##*:has(> a[href*="688634"])
-##*:has(> a[href*="688634"]) + div.windowbg
-
-!??
-##tr:has([id*="901640"])
-##*:has(> a[href*="901640"])
-##*:has(> a[href*="901640"]) + div.windowbg
-
-!???7-ELEVEN+?
-##tr:has([id*="977869"])
-##*:has(> a[href*="977869"])
-##*:has(> a[href*="977869"]) + div.windowbg
-
-!IPVanish
-##tr:has([id*="659884"])
-##*:has(> a[href*="659884"])
-##*:has(> a[href*="659884"]) + div.windowbg
-
-##tr:has([id*="659886"])
-##*:has(> a[href*="659886"])
-##*:has(> a[href*="659886"]) + div.windowbg
-
-!????Escorts Agency In Johor Bahru????
-##tr:has([id*="1021211"])
-##*:has(> a[href*="1021211"])
-##*:has(> a[href*="1021211"]) + div.windowbg
-
-!Escorts Agency Johor Bahru
-##tr:has([id*="1004068"])
-##*:has(> a[href*="1004068"])
-##*:has(> a[href*="1004068"]) + div.windowbg
-
-!Cheapest Overnight Package In Town (With 4 Star Hotel Room)
-##tr:has([id*="1024791"])
-##*:has(> a[href*="1024791"])
-##*:has(> a[href*="1024791"]) + div.windowbg
-
-##tr:has([id*="1024788"])
-##*:has(> a[href*="1024788"])
-##*:has(> a[href*="1024788"]) + div.windowbg
-
-!Bukit Indah Sakura Top Vietnam Cheapest RM500 8hour 3shots
-##tr:has([id*="1027849"])
-##*:has(> a[href*="1027849"])
-##*:has(> a[href*="1027849"]) + div.windowbg
-
-! JBTown/B.Indah 100% REAL PHOTO Thai/Viet/Indon cheap in town 
-##tr:has([id*="867619"])
-##*:has(> a[href*="867619"])
-##*:has(> a[href*="867619"]) + div.windowbg
-
-!JB Eros - Your best choice in JB
-##tr:has([id*="889056"])
-##*:has(> a[href*="889056"])
-##*:has(> a[href*="889056"]) + div.windowbg
-
-!RubySexy Visit us @ JB TOWN
-##tr:has([id*="693315"])
-##*:has(> a[href*="693315"])
-##*:has(> a[href*="693315"]) + div.windowbg
-
-!JB.PLAZA SENTOSA.VIP SPA.REAL GIRLS PARADE SHOW 
-##tr:has([id*="1009614"])
-##*:has(> a[href*="1009614"])
-##*:has(> a[href*="1009614"]) + div.windowbg
-
-!JB Point Exchange/TCSS/Discussion 
-##tr:has([id*="633380"])
-##*:has(> a[href*="633380"])
-##*:has(> a[href*="633380"]) + div.windowbg
-
-!Bukit Indah Jbescort88 Top hotel Vietnam Cheapest RM530 8hour 3shots
-##tr:has([id*="1074195"])
-##*:has(> a[href*="1074195"])
-##*:has(> a[href*="1074195"]) + div.windowbg
+##tr:has(> td#td_threadtitle_633380)
 
 !--------------------------------------------------International Field Reports----------
-!SWEDISH Girl Traveling - Tall Blonde ? Kinky & Open to Experiment
-##tr:has([id*="1028340"])
-##*:has(> a[href*="1028340"])
-##*:has(> a[href*="1028340"]) + div.windowbg
-
-!Genuine points exchange thread 
-##tr:has([id*="493723"])
-##*:has(> a[href*="493723"])
-##*:has(> a[href*="493723"]) + div.windowbg
+##tr:has(> td#td_threadtitle_493723)
 
 !--------------------------------------------------The Legal Geylang (prostitute) Scene----------
-!BubblyxPOP VIETNAM N2O PURE Nitrous Oxide
-##tr:has([id*="1071308"])
-##*:has(> a[href*="1071308"])
-##*:has(> a[href*="1071308"]) + div.windowbg
-
-##tr:has([id*="1070735"])
-##*:has(> a[href*="1070735"])
-##*:has(> a[href*="1070735"]) + div.windowbg
-
-!CUMPILATION OF VERIFIED REVIEWS FOR- Ron&Sam's VIAGRA PILLS! UPDATED POST!
-##tr:has([id*="1003276"])
-##*:has(> a[href*="1003276"])
-##*:has(> a[href*="1003276"]) + div.windowbg
-
-!Ron&Sam's VIAGRA,CIALIS,PREMATURE EJAC PILLS From $5 Only REAL Samster REVIEWS
-##tr:has([id*="966769"])
-##*:has(> a[href*="966769"])
-##*:has(> a[href*="966769"]) + div.windowbg
-
-!Thread for Exchange Points / Flame trolling / Copy Frs 
-##tr:has([id*="337422"])
-##*:has(> a[href*="337422"])
-##*:has(> a[href*="337422"]) + div.windowbg
-
-!Bowiek photo 
-##tr:has([id*="1084134"])
-##*:has(> a[href*="1084134"])
-##*:has(> a[href*="1084134"]) + div.windowbg
+##tr:has(> td#td_threadtitle_1003276)
+##tr:has(> td#td_threadtitle_966769)
+##tr:has(> td#td_threadtitle_1071308)
+##tr:has(> td#td_threadtitle_337422)
 
 !--------------------------------------------------Adult Discussions about SEX----------------------------
-!Exchange points thread rep power 3 and above 
-##tr:has([id*="1106885"])
-##*:has(> a[href*="1106885"])
-##*:has(> a[href*="1106885"]) + div.windowbg
+##tr:has(> td#td_threadtitle_857960)
+##tr:has(> td#td_threadtitle_1106885)
+##tr:has(> td#td_threadtitle_708852)
+##tr:has(> td#td_threadtitle_1022692)
+##tr:has(> td#td_threadtitle_654061)
 
-!Xiaoru?156 |E?43?19 years old Xiaoru is a very well-behaved girl 
-##tr:has([id*="1076818"])
-##*:has(> a[href*="1076818"])
-##*:has(> a[href*="1076818"]) + div.windowbg
+##tr:has(> td#td_threadtitle_1071542)
 
-!Taiwan business trip to meet the lady hotel door-to-door service
-##tr:has([id*="1075926"])
-##*:has(> a[href*="1075926"])
-##*:has(> a[href*="1075926"]) + div.windowbg
-
-!Taiwan calls the hotel to provide door-to-door service to the student girl
-##tr:has([id*="1076005"])
-##*:has(> a[href*="1076005"])
-##*:has(> a[href*="1076005"]) + div.windowbg
-
-!Taiwanese model part-time E cup and amazing S-shaped curves, she is a man's dream
-##tr:has([id*="1076006"])
-##*:has(> a[href*="1076006"])
-##*:has(> a[href*="1076006"]) + div.windowbg
-
-!BubblyxPOP VIETNAM N2O PURE Nitrous Oxide
-##tr:has([id*="1071542"])
-##*:has(> a[href*="1071542"])
-##*:has(> a[href*="1071542"]) + div.windowbg
-
-!MENSPLUS-Pills For Men. Faster Recovery, Harder Erections, ED Solutions.
-##tr:has([id*="654061"])
-##*:has(> a[href*="654061"])
-##*:has(> a[href*="654061"]) + div.windowbg
-
-!Sopico (????power coffee drink for harder and longer lasting sex
-##tr:has([id*="857960"])
-##*:has(> a[href*="857960"])
-##*:has(> a[href*="857960"]) + div.windowbg
-
-!CUMPILATION OF VERIFIED REVIEWS FOR- Ron&Sam's VIAGRA PILLS! UPDATED POST!
-!##tr:has([id*="1003276"])
-!##*:has(> a[href*="1003275"])
-!##*:has(> a[href*="1003275"]) + div.windowbg
-
-!Ron&Sam's VIAGRA,CIALIS,PREMATURE EJAC PILLS From $5 Only REAL Samster REVIEWS
-!##tr:has([id*="966767"])
-!##*:has(> a[href*="966767"])
-!##*:has(> a[href*="966767"]) + div.windowbg
-
-!Bear Bile Powder <????-???> Specially made for drinkers and MEN!
-##tr:has([id*="1033273"])
-##*:has(> a[href*="1033273"])
-##*:has(> a[href*="1033273"]) + div.windowbg
-
-!Welcome to DrVapeee's shop ; a wide variety of vape supplies
-##tr:has([id*="961704"])
-##*:has(> a[href*="961704"])
-##*:has(> a[href*="961704"]) + div.windowbg
-
-!Exchange points in ZAP FREE zone! 
-##tr:has([id*="563867"])
-##*:has(> a[href*="563867"])
-##*:has(> a[href*="563867"]) + div.windowbg
-
-!Points exchange with minimum 1 power 
-##tr:has([id*="1022692"])
-##*:has(> a[href*="1022692"])
-##*:has(> a[href*="1022692"]) + div.windowbg
-
-!All Newbies & those wanna to get their 1st power fall in here 
-##tr:has([id*="577062"])
-##*:has(> a[href*="577062"])
-##*:has(> a[href*="577062"]) + div.windowbg
-
-!someone buying sammyboyforum userid
-##tr:has([id*="349391"])
-##*:has(> a[href*="349391"])
-##*:has(> a[href*="349391"]) + div.windowbg
-
-!premium point exchange corner points 10^ / general discussion
-##tr:has([id*="708852"])
-##*:has(> a[href*="708852"])
-##*:has(> a[href*="708852"]) + div.windowbg
-
-!Thread For Exchange Of Points 
-##tr:has([id*="654871"])
-##*:has(> a[href*="654871"])
-##*:has(> a[href*="654871"]) + div.windowbg
-
-!Exposed Donor Clones Zapper 
-##tr:has([id*="655809"])
-##*:has(> a[href*="655809"])
-##*:has(> a[href*="655809"]) + div.windowbg
-
-!MEET BEAUTIFUL RUSSIAN LADIES NOW! ONLINE GIRLFRIEND EXPERIENCE!
-##tr:has([id*="1038766"])
-##*:has(> a[href*="1038766"])
-##*:has(> a[href*="1038766"]) + div.windowbg
 
 !-------------------------------Health Centre and KTV lounge Tangos----------------------------------- 
 
 
-##tr:has([id*="929503"])
-##*:has(> a[href*="929503"])
-##*:has(> a[href*="929503"]) + div.windowbg
-
-##tr:has([id*="1034674"])
-##*:has(> a[href*="1034674"])
-##*:has(> a[href*="1034674"]) + div.windowbg
-
-##tr:has([id*="1057981"])
-##*:has(> a[href*="1057981"])
-##*:has(> a[href*="1057981"]) + div.windowbg
-
-##tr:has([id*="1078893"])
-##*:has(> a[href*="1078893"])
-##*:has(> a[href*="1078893"]) + div.windowbg
-
-##tr:has([id*="1079024"])
-##*:has(> a[href*="1079024"])
-##*:has(> a[href*="1079024"]) + div.windowbg
-
-##tr:has([id*="1080420"])
-##*:has(> a[href*="1080420"])
-##*:has(> a[href*="1080420"]) + div.windowbg
-
-##tr:has([id*="1082141"])
-##*:has(> a[href*="1082141"])
-##*:has(> a[href*="1082141"]) + div.windowbg
-
-##tr:has([id*="1084250"])
-##*:has(> a[href*="1084250"])
-##*:has(> a[href*="1084250"]) + div.windowbg
-
-##tr:has([id*="1092003"])
-##*:has(> a[href*="1092003"])
-##*:has(> a[href*="1092003"]) + div.windowbg
-
-##tr:has([id*="1092360"])
-##*:has(> a[href*="1092360"])
-##*:has(> a[href*="1092360"]) + div.windowbg
-
-##tr:has([id*="1094874"])
-##*:has(> a[href*="1094874"])
-##*:has(> a[href*="1094874"]) + div.windowbg
-
-##tr:has([id*="1099943"])
-##*:has(> a[href*="1099943"])
-##*:has(> a[href*="1099943"]) + div.windowbg
-
-##tr:has([id*="1102813"])
-##*:has(> a[href*="1102813"])
-##*:has(> a[href*="1102813"]) + div.windowbg
-
-##tr:has([id*="1102838"])
-##*:has(> a[href*="1102838"])
-##*:has(> a[href*="1102838"]) + div.windowbg
-
-##tr:has([id*="1106656"])
-##*:has(> a[href*="1106656"])
-##*:has(> a[href*="1106656"]) + div.windowbg
-
-##tr:has([id*="1108431"])
-##*:has(> a[href*="1108431"])
-##*:has(> a[href*="1108431"]) + div.windowbg
-
-##tr:has([id*="1111251"])
-##*:has(> a[href*="1111251"])
-##*:has(> a[href*="1111251"]) + div.windowbg
-
-##tr:has([id*="1118104"])
-##*:has(> a[href*="1118104"])
-##*:has(> a[href*="1118104"]) + div.windowbg
-
-##tr:has([id*="1118108"])
-##*:has(> a[href*="1118108"])
-##*:has(> a[href*="1118108"]) + div.windowbg
-
-##tr:has([id*="1120696"])
-##*:has(> a[href*="1120696"])
-##*:has(> a[href*="1120696"]) + div.windowbg
-
-##tr:has([id*="1122414"])
-##*:has(> a[href*="1122414"])
-##*:has(> a[href*="1122414"]) + div.windowbg
-
-##tr:has([id*="1123744"])
-##*:has(> a[href*="1123744"])
-##*:has(> a[href*="1123744"]) + div.windowbg
-
-##tr:has([id*="1123976"])
-##*:has(> a[href*="1123976"])
-##*:has(> a[href*="1123976"]) + div.windowbg
-
-##tr:has([id*="1125225"])
-##*:has(> a[href*="1125225"])
-##*:has(> a[href*="1125225"]) + div.windowbg
-
-##tr:has([id*="1126852"])
-##*:has(> a[href*="1126852"])
-##*:has(> a[href*="1126852"]) + div.windowbg
-
-##tr:has([id*="1127626"])
-##*:has(> a[href*="1127626"])
-##*:has(> a[href*="1127626"]) + div.windowbg
-
-##tr:has([id*="1127738"])
-##*:has(> a[href*="1127738"])
-##*:has(> a[href*="1127738"]) + div.windowbg
-
-##tr:has([id*="1128839"])
-##*:has(> a[href*="1128839"])
-##*:has(> a[href*="1128839"]) + div.windowbg
-
-##tr:has([id*="1128849"])
-##*:has(> a[href*="1128849"])
-##*:has(> a[href*="1128849"]) + div.windowbg
-
-##tr:has([id*="1128922"])
-##*:has(> a[href*="1128922"])
-##*:has(> a[href*="1128922"]) + div.windowbg
-
-##tr:has([id*="1129466"])
-##*:has(> a[href*="1129466"])
-##*:has(> a[href*="1129466"]) + div.windowbg
-
-##tr:has([id*="1129891"])
-##*:has(> a[href*="1129891"])
-##*:has(> a[href*="1129891"]) + div.windowbg
-
-##tr:has([id*="1129910"])
-##*:has(> a[href*="1129910"])
-##*:has(> a[href*="1129910"]) + div.windowbg
-
-##tr:has([id*="1129976"])
-##*:has(> a[href*="1129976"])
-##*:has(> a[href*="1129976"]) + div.windowbg
-
-##tr:has([id*="1131055"])
-##*:has(> a[href*="1131055"])
-##*:has(> a[href*="1131055"]) + div.windowbg
-
-##tr:has([id*="1131115"])
-##*:has(> a[href*="1131115"])
-##*:has(> a[href*="1131115"]) + div.windowbg
-
-##tr:has([id*="1133640"])
-##*:has(> a[href*="1133640"])
-##*:has(> a[href*="1133640"]) + div.windowbg
-
-##tr:has([id*="1133852"])
-##*:has(> a[href*="1133852"])
-##*:has(> a[href*="1133852"]) + div.windowbg
-
-##tr:has([id*="1134019"])
-##*:has(> a[href*="1134019"])
-##*:has(> a[href*="1134019"]) + div.windowbg
-
-##tr:has([id*="1134482"])
-##*:has(> a[href*="1134482"])
-##*:has(> a[href*="1134482"]) + div.windowbg
-
-##tr:has([id*="1134884"])
-##*:has(> a[href*="1134884"])
-##*:has(> a[href*="1134884"]) + div.windowbg
-
-##tr:has([id*="1135256"])
-##*:has(> a[href*="1135256"])
-##*:has(> a[href*="1135256"]) + div.windowbg
-
-##tr:has([id*="1136009"])
-##*:has(> a[href*="1136009"])
-##*:has(> a[href*="1136009"]) + div.windowbg
-
-##tr:has([id*="1136718"])
-##*:has(> a[href*="1136718"])
-##*:has(> a[href*="1136718"]) + div.windowbg
-
-##tr:has([id*="1136885"])
-##*:has(> a[href*="1136885"])
-##*:has(> a[href*="1136885"]) + div.windowbg
-
-##tr:has([id*="1137536"])
-##*:has(> a[href*="1137536"])
-##*:has(> a[href*="1137536"]) + div.windowbg
-
-##tr:has([id*="1137580"])
-##*:has(> a[href*="1137580"])
-##*:has(> a[href*="1137580"]) + div.windowbg
-
-##tr:has([id*="1138277"])
-##*:has(> a[href*="1138277"])
-##*:has(> a[href*="1138277"]) + div.windowbg
-
-##tr:has([id*="1138526"])
-##*:has(> a[href*="1138526"])
-##*:has(> a[href*="1138526"]) + div.windowbg
-
-##tr:has([id*="1138895"])
-##*:has(> a[href*="1138895"])
-##*:has(> a[href*="1138895"]) + div.windowbg
-
-##tr:has([id*="1139250"])
-##*:has(> a[href*="1139250"])
-##*:has(> a[href*="1139250"]) + div.windowbg
-
-##tr:has([id*="1139256"])
-##*:has(> a[href*="1139256"])
-##*:has(> a[href*="1139256"]) + div.windowbg
-
-##tr:has([id*="1139645"])
-##*:has(> a[href*="1139645"])
-##*:has(> a[href*="1139645"]) + div.windowbg
-
-##tr:has([id*="1139780"])
-##*:has(> a[href*="1139780"])
-##*:has(> a[href*="1139780"]) + div.windowbg
-
-##tr:has([id*="1139795"])
-##*:has(> a[href*="1139795"])
-##*:has(> a[href*="1139795"]) + div.windowbg
-
-##tr:has([id*="1139831"])
-##*:has(> a[href*="1139831"])
-##*:has(> a[href*="1139831"]) + div.windowbg
-
-##tr:has([id*="1139867"])
-##*:has(> a[href*="1139867"])
-##*:has(> a[href*="1139867"]) + div.windowbg
-
-##tr:has([id*="1139924"])
-##*:has(> a[href*="1139924"])
-##*:has(> a[href*="1139924"]) + div.windowbg
-
-##tr:has([id*="1139932"])
-##*:has(> a[href*="1139932"])
-##*:has(> a[href*="1139932"]) + div.windowbg
-
-##tr:has([id*="1140438"])
-##*:has(> a[href*="1140438"])
-##*:has(> a[href*="1140438"]) + div.windowbg
-
-##tr:has([id*="1140839"])
-##*:has(> a[href*="1140839"])
-##*:has(> a[href*="1140839"]) + div.windowbg
-
-##tr:has([id*="1140913"])
-##*:has(> a[href*="1140913"])
-##*:has(> a[href*="1140913"]) + div.windowbg
-
-##tr:has([id*="1141076"])
-##*:has(> a[href*="1141076"])
-##*:has(> a[href*="1141076"]) + div.windowbg
-
-##tr:has([id*="1141347"])
-##*:has(> a[href*="1141347"])
-##*:has(> a[href*="1141347"]) + div.windowbg
-
-##tr:has([id*="1141349"])
-##*:has(> a[href*="1141349"])
-##*:has(> a[href*="1141349"]) + div.windowbg
-
-##tr:has([id*="1141596"])
-##*:has(> a[href*="1141596"])
-##*:has(> a[href*="1141596"]) + div.windowbg
-
-##tr:has([id*="1141781"])
-##*:has(> a[href*="1141781"])
-##*:has(> a[href*="1141781"]) + div.windowbg
-
-##tr:has([id*="1142265"])
-##*:has(> a[href*="1142265"])
-##*:has(> a[href*="1142265"]) + div.windowbg
-
-##tr:has([id*="1142369"])
-##*:has(> a[href*="1142369"])
-##*:has(> a[href*="1142369"]) + div.windowbg
-
-##tr:has([id*="1142987"])
-##*:has(> a[href*="1142987"])
-##*:has(> a[href*="1142987"]) + div.windowbg
-
-##tr:has([id*="1143192"])
-##*:has(> a[href*="1143192"])
-##*:has(> a[href*="1143192"]) + div.windowbg
-
-##tr:has([id*="1143287"])
-##*:has(> a[href*="1143287"])
-##*:has(> a[href*="1143287"]) + div.windowbg
-
-##tr:has([id*="1143502"])
-##*:has(> a[href*="1143502"])
-##*:has(> a[href*="1143502"]) + div.windowbg
-
-##tr:has([id*="1143713"])
-##*:has(> a[href*="1143713"])
-##*:has(> a[href*="1143713"]) + div.windowbg
-
-##tr:has([id*="1143827"])
-##*:has(> a[href*="1143827"])
-##*:has(> a[href*="1143827"]) + div.windowbg
-
-##tr:has([id*="1143935"])
-##*:has(> a[href*="1143935"])
-##*:has(> a[href*="1143935"]) + div.windowbg
-
-##tr:has([id*="1144299"])
-##*:has(> a[href*="1144299"])
-##*:has(> a[href*="1144299"]) + div.windowbg
-
-##tr:has([id*="1144326"])
-##*:has(> a[href*="1144326"])
-##*:has(> a[href*="1144326"]) + div.windowbg
-
-##tr:has([id*="1144515"])
-##*:has(> a[href*="1144515"])
-##*:has(> a[href*="1144515"]) + div.windowbg
-
-##tr:has([id*="1144567"])
-##*:has(> a[href*="1144567"])
-##*:has(> a[href*="1144567"]) + div.windowbg
-
-##tr:has([id*="1144894"])
-##*:has(> a[href*="1144894"])
-##*:has(> a[href*="1144894"]) + div.windowbg
-
-##tr:has([id*="1144983"])
-##*:has(> a[href*="1144983"])
-##*:has(> a[href*="1144983"]) + div.windowbg
-
-##tr:has([id*="1146152"])
-##*:has(> a[href*="1146152"])
-##*:has(> a[href*="1146152"]) + div.windowbg
-
-##tr:has([id*="1146174"])
-##*:has(> a[href*="1146174"])
-##*:has(> a[href*="1146174"]) + div.windowbg
-
-##tr:has([id*="1146235"])
-##*:has(> a[href*="1146235"])
-##*:has(> a[href*="1146235"]) + div.windowbg
-
-##tr:has([id*="1146288"])
-##*:has(> a[href*="1146288"])
-##*:has(> a[href*="1146288"]) + div.windowbg
-
-##tr:has([id*="1146327"])
-##*:has(> a[href*="1146327"])
-##*:has(> a[href*="1146327"]) + div.windowbg
-
-##tr:has([id*="1146545"])
-##*:has(> a[href*="1146545"])
-##*:has(> a[href*="1146545"]) + div.windowbg
-
-##tr:has([id*="1146549"])
-##*:has(> a[href*="1146549"])
-##*:has(> a[href*="1146549"]) + div.windowbg
-
-##tr:has([id*="724056"])
-##*:has(> a[href*="724056"])
-##*:has(> a[href*="724056"]) + div.windowbg
-
-##tr:has([id*="894231"])
-##*:has(> a[href*="894231"])
-##*:has(> a[href*="894231"]) + div.windowbg
-
-##tr:has([id*="1011784"])
-##*:has(> a[href*="1011784"])
-##*:has(> a[href*="1011784"]) + div.windowbg
-
-##tr:has([id*="1047220"])
-##*:has(> a[href*="1047220"])
-##*:has(> a[href*="1047220"]) + div.windowbg
-
-##tr:has([id*="1070758"])
-##*:has(> a[href*="1070758"])
-##*:has(> a[href*="1070758"]) + div.windowbg
-
-##tr:has([id*="1078744"])
-##*:has(> a[href*="1078744"])
-##*:has(> a[href*="1078744"]) + div.windowbg
-
-##tr:has([id*="1089621"])
-##*:has(> a[href*="1089621"])
-##*:has(> a[href*="1089621"]) + div.windowbg
-
-##tr:has([id*="1109433"])
-##*:has(> a[href*="1109433"])
-##*:has(> a[href*="1109433"]) + div.windowbg
-
-##tr:has([id*="1111729"])
-##*:has(> a[href*="1111729"])
-##*:has(> a[href*="1111729"]) + div.windowbg
-
-##tr:has([id*="1112586"])
-##*:has(> a[href*="1112586"])
-##*:has(> a[href*="1112586"]) + div.windowbg
-
-##tr:has([id*="1119710"])
-##*:has(> a[href*="1119710"])
-##*:has(> a[href*="1119710"]) + div.windowbg
-
-##tr:has([id*="1125671"])
-##*:has(> a[href*="1125671"])
-##*:has(> a[href*="1125671"]) + div.windowbg
-
-##tr:has([id*="1125847"])
-##*:has(> a[href*="1125847"])
-##*:has(> a[href*="1125847"]) + div.windowbg
-
-##tr:has([id*="1127930"])
-##*:has(> a[href*="1127930"])
-##*:has(> a[href*="1127930"]) + div.windowbg
-
-##tr:has([id*="1129015"])
-##*:has(> a[href*="1129015"])
-##*:has(> a[href*="1129015"]) + div.windowbg
-
-##tr:has([id*="1131289"])
-##*:has(> a[href*="1131289"])
-##*:has(> a[href*="1131289"]) + div.windowbg
-
-##tr:has([id*="1131987"])
-##*:has(> a[href*="1131987"])
-##*:has(> a[href*="1131987"]) + div.windowbg
-
-##tr:has([id*="1133376"])
-##*:has(> a[href*="1133376"])
-##*:has(> a[href*="1133376"]) + div.windowbg
-
-##tr:has([id*="1134234"])
-##*:has(> a[href*="1134234"])
-##*:has(> a[href*="1134234"]) + div.windowbg
-
-##tr:has([id*="1134359"])
-##*:has(> a[href*="1134359"])
-##*:has(> a[href*="1134359"]) + div.windowbg
-
-##tr:has([id*="1136427"])
-##*:has(> a[href*="1136427"])
-##*:has(> a[href*="1136427"]) + div.windowbg
-
-##tr:has([id*="1139355"])
-##*:has(> a[href*="1139355"])
-##*:has(> a[href*="1139355"]) + div.windowbg
-
-##tr:has([id*="1141770"])
-##*:has(> a[href*="1141770"])
-##*:has(> a[href*="1141770"]) + div.windowbg
-
-##tr:has([id*="1141774"])
-##*:has(> a[href*="1141774"])
-##*:has(> a[href*="1141774"]) + div.windowbg
-
-##tr:has([id*="1142766"])
-##*:has(> a[href*="1142766"])
-##*:has(> a[href*="1142766"]) + div.windowbg
-
-##tr:has([id*="1145718"])
-##*:has(> a[href*="1145718"])
-##*:has(> a[href*="1145718"]) + div.windowbg
-
-##tr:has([id*="1145988"])
-##*:has(> a[href*="1145988"])
-##*:has(> a[href*="1145988"]) + div.windowbg
-
-##tr:has([id*="1145998"])
-##*:has(> a[href*="1145998"])
-##*:has(> a[href*="1145998"]) + div.windowbg
+##tr:has(> td#td_threadtitle_929503)
+
+##tr:has(> td#td_threadtitle_1034674)
+
+##tr:has(> td#td_threadtitle_1057981)
+
+##tr:has(> td#td_threadtitle_1079024)
+
+##tr:has(> td#td_threadtitle_1080420)
+
+##tr:has(> td#td_threadtitle_1082141)
+
+##tr:has(> td#td_threadtitle_1084250)
+
+##tr:has(> td#td_threadtitle_1092003)
+
+##tr:has(> td#td_threadtitle_1092360)
+
+##tr:has(> td#td_threadtitle_1094874)
+
+##tr:has(> td#td_threadtitle_1099943)
+
+##tr:has(> td#td_threadtitle_1102813)
+
+##tr:has(> td#td_threadtitle_1102838)
+
+##tr:has(> td#td_threadtitle_1106656)
+
+##tr:has(> td#td_threadtitle_1108431)
+
+##tr:has(> td#td_threadtitle_1111251)
+
+##tr:has(> td#td_threadtitle_1113771)
+
+##tr:has(> td#td_threadtitle_1118104)
+
+##tr:has(> td#td_threadtitle_1118108)
+
+##tr:has(> td#td_threadtitle_1120696)
+
+##tr:has(> td#td_threadtitle_1122288)
+
+##tr:has(> td#td_threadtitle_1122414)
+
+##tr:has(> td#td_threadtitle_1123744)
+
+##tr:has(> td#td_threadtitle_1123976)
+
+##tr:has(> td#td_threadtitle_1125225)
+
+##tr:has(> td#td_threadtitle_1126852)
+
+##tr:has(> td#td_threadtitle_1127626)
+
+##tr:has(> td#td_threadtitle_1127738)
+
+##tr:has(> td#td_threadtitle_1128839)
+
+##tr:has(> td#td_threadtitle_1128849)
+
+##tr:has(> td#td_threadtitle_1129466)
+
+##tr:has(> td#td_threadtitle_1129823)
+
+##tr:has(> td#td_threadtitle_1129891)
+
+##tr:has(> td#td_threadtitle_1129910)
+
+##tr:has(> td#td_threadtitle_1129976)
+
+##tr:has(> td#td_threadtitle_1131055)
+
+##tr:has(> td#td_threadtitle_1131115)
+
+##tr:has(> td#td_threadtitle_1133640)
+
+##tr:has(> td#td_threadtitle_1134019)
+
+##tr:has(> td#td_threadtitle_1134482)
+
+##tr:has(> td#td_threadtitle_1134884)
+
+##tr:has(> td#td_threadtitle_1135256)
+
+##tr:has(> td#td_threadtitle_1136009)
+
+##tr:has(> td#td_threadtitle_1136718)
+
+##tr:has(> td#td_threadtitle_1136885)
+
+##tr:has(> td#td_threadtitle_1137536)
+
+##tr:has(> td#td_threadtitle_1137580)
+
+##tr:has(> td#td_threadtitle_1138277)
+
+##tr:has(> td#td_threadtitle_1138526)
+
+##tr:has(> td#td_threadtitle_1138895)
+
+##tr:has(> td#td_threadtitle_1139780)
+
+##tr:has(> td#td_threadtitle_1139924)
+
+##tr:has(> td#td_threadtitle_1139932)
+
+##tr:has(> td#td_threadtitle_1140438)
+
+##tr:has(> td#td_threadtitle_1140839)
+
+##tr:has(> td#td_threadtitle_1140913)
+
+##tr:has(> td#td_threadtitle_1141076)
+
+##tr:has(> td#td_threadtitle_1141274)
+
+##tr:has(> td#td_threadtitle_1141347)
+
+##tr:has(> td#td_threadtitle_1141349)
+
+##tr:has(> td#td_threadtitle_1141596)
+
+##tr:has(> td#td_threadtitle_1141781)
+
+##tr:has(> td#td_threadtitle_1142265)
+
+##tr:has(> td#td_threadtitle_1142369)
+
+##tr:has(> td#td_threadtitle_1142987)
+
+##tr:has(> td#td_threadtitle_1143192)
+
+##tr:has(> td#td_threadtitle_1143287)
+
+##tr:has(> td#td_threadtitle_1143502)
+
+##tr:has(> td#td_threadtitle_1143713)
+
+##tr:has(> td#td_threadtitle_1143827)
+
+##tr:has(> td#td_threadtitle_1143935)
+
+##tr:has(> td#td_threadtitle_1144299)
+
+##tr:has(> td#td_threadtitle_1144326)
+
+##tr:has(> td#td_threadtitle_1144515)
+
+##tr:has(> td#td_threadtitle_1144567)
+
+##tr:has(> td#td_threadtitle_1144894)
+
+##tr:has(> td#td_threadtitle_1144983)
+
+##tr:has(> td#td_threadtitle_1146152)
+
+##tr:has(> td#td_threadtitle_1146174)
+
+##tr:has(> td#td_threadtitle_1146235)
+
+##tr:has(> td#td_threadtitle_1146288)
+
+##tr:has(> td#td_threadtitle_1146327)
+
+##tr:has(> td#td_threadtitle_1146545)
+
+##tr:has(> td#td_threadtitle_1146722)
+
+##tr:has(> td#td_threadtitle_1146739)
+
+##tr:has(> td#td_threadtitle_1146784)
+
+##tr:has(> td#td_threadtitle_1146792)
+
+##tr:has(> td#td_threadtitle_1146998)
+
+##tr:has(> td#td_threadtitle_1147054)
+
+##tr:has(> td#td_threadtitle_1147399)
+
+##tr:has(> td#td_threadtitle_1147595)
+
+##tr:has(> td#td_threadtitle_1147699)
+
+##tr:has(> td#td_threadtitle_1147780)
+
+##tr:has(> td#td_threadtitle_1147781)
+
+##tr:has(> td#td_threadtitle_724056)
+
+##tr:has(> td#td_threadtitle_894231)
+
+##tr:has(> td#td_threadtitle_1011784)
+
+##tr:has(> td#td_threadtitle_1047220)
+
+##tr:has(> td#td_threadtitle_1070758)
+
+##tr:has(> td#td_threadtitle_1078744)
+
+##tr:has(> td#td_threadtitle_1089621)
+
+##tr:has(> td#td_threadtitle_1109433)
+
+##tr:has(> td#td_threadtitle_1111729)
+
+##tr:has(> td#td_threadtitle_1112586)
+
+##tr:has(> td#td_threadtitle_1119710)
+
+##tr:has(> td#td_threadtitle_1125671)
+
+##tr:has(> td#td_threadtitle_1125847)
+
+##tr:has(> td#td_threadtitle_1127930)
+
+##tr:has(> td#td_threadtitle_1129015)
+
+##tr:has(> td#td_threadtitle_1131289)
+
+##tr:has(> td#td_threadtitle_1131987)
+
+##tr:has(> td#td_threadtitle_1133376)
+
+##tr:has(> td#td_threadtitle_1134234)
+
+##tr:has(> td#td_threadtitle_1134359)
+
+##tr:has(> td#td_threadtitle_1136427)
+
+##tr:has(> td#td_threadtitle_1139355)
+
+##tr:has(> td#td_threadtitle_1141770)
+
+##tr:has(> td#td_threadtitle_1141774)
+
+##tr:has(> td#td_threadtitle_1142766)
+
+##tr:has(> td#td_threadtitle_1145718)
+
+##tr:has(> td#td_threadtitle_1145998)
+
+##tr:has(> td#td_threadtitle_1146710)
+
+##tr:has(> td#td_threadtitle_1147077)
+
+##tr:has(> td#td_threadtitle_1147174)
+
+##tr:has(> td#td_threadtitle_1147285)
+
+##tr:has(> td#td_threadtitle_1147329)
+
+##tr:has(> td#td_threadtitle_1147752)
