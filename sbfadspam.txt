@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: SBF Advertiser Spam Blocker
 ! Expires: 23 hours (update frequency)
-! Last modified: 20 Oct 2026 06:05:48 +0800
+! Last modified: 21 Oct 2026 06:05:46 +0800
 
 !------------------------------Site Banners---------------------------
 ||sammyboyforum.com/bannergraphics/
@@ -166,10 +166,6 @@
 
 ##tr:has(> td#td_threadtitle_1138895)
 
-##tr:has(> td#td_threadtitle_1139780)
-
-##tr:has(> td#td_threadtitle_1139924)
-
 ##tr:has(> td#td_threadtitle_1139932)
 
 ##tr:has(> td#td_threadtitle_1140438)
@@ -254,6 +250,10 @@
 
 ##tr:has(> td#td_threadtitle_1147781)
 
+##tr:has(> td#td_threadtitle_1147842)
+
+##tr:has(> td#td_threadtitle_1147883)
+
 ##tr:has(> td#td_threadtitle_724056)
 
 ##tr:has(> td#td_threadtitle_894231)
@@ -279,8 +279,6 @@
 ##tr:has(> td#td_threadtitle_1125671)
 
 ##tr:has(> td#td_threadtitle_1125847)
-
-##tr:has(> td#td_threadtitle_1127930)
 
 ##tr:has(> td#td_threadtitle_1129015)
 
