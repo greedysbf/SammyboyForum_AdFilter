@@ -1,66 +1,71 @@
 [Adblock Plus 2.0]
 ! Title: SBF Advertiser Spam Blocker
 ! Expires: 23 hours (update frequency)
-! Last modified: 21 Oct 2026 06:05:46 +0800
+! Last modified: 22 Oct 2026 06:05:46 +0800
 
 !------------------------------Site Banners---------------------------
 ||sammyboyforum.com/bannergraphics/
 ||sammyboyforum.com/images/twitter.png
 ||sbf.net.nz/bannergraphics/
 ||sbf.net.nz/images/twitter.png
+||sbfonline.site/bannergraphics/
+||sbfonline.site/images/twitter.png
+
 ! Mobile: Block banner at the end of threads
 ##.mm-postbit-ad.mm-sponsor
+
 ! Desktop: Block banner at the end of threads
 ##table.tborder:has(img[src*="955640.jpg"])
+
 ! Notice block at the top of the forum
 ###notices
 ##.mm-community-notices.mm-details
 ##.mm-sponsor
+
 ! Sticky threads at the top of every sub forum
-##tr.sbf-sticky
+! ##tr.sbf-sticky
+!##div.sticky:has(> a[href*="showthread.php"])
+
 !------------------------------------------------------------Keong Saik
 !BubblyxPOP
-##tr:has(> td#td_threadtitle_1071547)
+##:is(tr:has(> td#td_threadtitle_1071547), :has(> a[href*="showthread.php"][href$="t=1071547"]), :has(> a[href*="showthread.php"][href$="t=1071547"]) + div.windowbg)
 
 !------------------------------------------------------------Petain Romps
 !Thread for Exchange Points / Complaints / Reputation System Questions 
-##tr:has(> td#td_threadtitle_432327)
+##:is(tr:has(> td#td_threadtitle_432327), :has(> a[href*="showthread.php"][href$="t=432327"]), :has(> a[href*="showthread.php"][href$="t=432327"]) + div.windowbg)
 
 !------------------------------------------The Sammyboy link/Picture exchange Plaza [Restricted - Members only]----------
-##tr:has(> td#td_threadtitle_475776)
+##:is(tr:has(> td#td_threadtitle_475776), :has(> a[href*="showthread.php"][href$="t=475776"]), :has(> a[href*="showthread.php"][href$="t=475776"]) + div.windowbg)
 
 !------------------------------------------------------------JB Delights----------
-##tr:has(> td#td_threadtitle_688635)
-##tr:has(> td#td_threadtitle_659884)
-##tr:has(> td#td_threadtitle_901640)
-##tr:has(> td#td_threadtitle_1079826)
-##tr:has(> td#td_threadtitle_867619)
-
-##tr:has(> td#td_threadtitle_1144139)
-##tr:has(> td#td_threadtitle_889056)
-##tr:has(> td#td_threadtitle_693315)
-##tr:has(> td#td_threadtitle_1131776)
-##tr:has(> td#td_threadtitle_1131775)
-
-##tr:has(> td#td_threadtitle_633380)
+##:is(tr:has(> td#td_threadtitle_688635), :has(> a[href*="showthread.php"][href$="t=688635"]), :has(> a[href*="showthread.php"][href$="t=688635"]) + div.windowbg)
+##:is(tr:has(> td#td_threadtitle_659884), :has(> a[href*="showthread.php"][href$="t=659884"]), :has(> a[href*="showthread.php"][href$="t=659884"]) + div.windowbg)
+##:is(tr:has(> td#td_threadtitle_901640), :has(> a[href*="showthread.php"][href$="t=901640"]), :has(> a[href*="showthread.php"][href$="t=901640"]) + div.windowbg)
+##:is(tr:has(> td#td_threadtitle_1079826), :has(> a[href*="showthread.php"][href$="t=1079826"]), :has(> a[href*="showthread.php"][href$="t=1079826"]) + div.windowbg)
+##:is(tr:has(> td#td_threadtitle_867619), :has(> a[href*="showthread.php"][href$="t=867619"]), :has(> a[href*="showthread.php"][href$="t=867619"]) + div.windowbg)
+##:is(tr:has(> td#td_threadtitle_1144139), :has(> a[href*="showthread.php"][href$="t=1144139"]), :has(> a[href*="showthread.php"][href$="t=1144139"]) + div.windowbg)
+##:is(tr:has(> td#td_threadtitle_889056), :has(> a[href*="showthread.php"][href$="t=889056"]), :has(> a[href*="showthread.php"][href$="t=889056"]) + div.windowbg)
+##:is(tr:has(> td#td_threadtitle_693315), :has(> a[href*="showthread.php"][href$="t=693315"]), :has(> a[href*="showthread.php"][href$="t=693315"]) + div.windowbg)
+##:is(tr:has(> td#td_threadtitle_1131776), :has(> a[href*="showthread.php"][href$="t=1131776"]), :has(> a[href*="showthread.php"][href$="t=1131776"]) + div.windowbg)
+##:is(tr:has(> td#td_threadtitle_1131775), :has(> a[href*="showthread.php"][href$="t=1131775"]), :has(> a[href*="showthread.php"][href$="t=1131775"]) + div.windowbg)
+##:is(tr:has(> td#td_threadtitle_633380), :has(> a[href*="showthread.php"][href$="t=633380"]), :has(> a[href*="showthread.php"][href$="t=633380"]) + div.windowbg)
 
 !--------------------------------------------------International Field Reports----------
-##tr:has(> td#td_threadtitle_493723)
+##:is(tr:has(> td#td_threadtitle_493723), :has(> a[href*="showthread.php"][href$="t=493723"]), :has(> a[href*="showthread.php"][href$="t=493723"]) + div.windowbg)
 
 !--------------------------------------------------The Legal Geylang (prostitute) Scene----------
-##tr:has(> td#td_threadtitle_1003276)
-##tr:has(> td#td_threadtitle_966769)
-##tr:has(> td#td_threadtitle_1071308)
-##tr:has(> td#td_threadtitle_337422)
+##:is(tr:has(> td#td_threadtitle_1003276), :has(> a[href*=""showthread.php""][href$=""t=1003276""]), :has(> a[href*=""showthread.php""][href$=""t=1003276""]) + div.windowbg)
+##:is(tr:has(> td#td_threadtitle_966769), :has(> a[href*=""showthread.php""][href$=""t=966769""]), :has(> a[href*=""showthread.php""][href$=""t=966769""]) + div.windowbg)
+##:is(tr:has(> td#td_threadtitle_1071308), :has(> a[href*=""showthread.php""][href$=""t=1071308""]), :has(> a[href*=""showthread.php""][href$=""t=1071308""]) + div.windowbg)
+##:is(tr:has(> td#td_threadtitle_337422), :has(> a[href*="showthread.php"][href$="t=337422"]), :has(> a[href*="showthread.php"][href$="t=337422"]) + div.windowbg)
 
 !--------------------------------------------------Adult Discussions about SEX----------------------------
-##tr:has(> td#td_threadtitle_857960)
-##tr:has(> td#td_threadtitle_1106885)
-##tr:has(> td#td_threadtitle_708852)
-##tr:has(> td#td_threadtitle_1022692)
-##tr:has(> td#td_threadtitle_654061)
-
-##tr:has(> td#td_threadtitle_1071542)
+##:is(tr:has(> td#td_threadtitle_857960), :has(> a[href*="showthread.php"][href$="t=857960"]), :has(> a[href*="showthread.php"][href$="t=857960"]) + div.windowbg)
+##:is(tr:has(> td#td_threadtitle_1106885), :has(> a[href*="showthread.php"][href$="t=1106885"]), :has(> a[href*="showthread.php"][href$="t=1106885"]) + div.windowbg)
+##:is(tr:has(> td#td_threadtitle_708852), :has(> a[href*="showthread.php"][href$="t=708852"]), :has(> a[href*="showthread.php"][href$="t=708852"]) + div.windowbg)
+##:is(tr:has(> td#td_threadtitle_1022692), :has(> a[href*="showthread.php"][href$="t=1022692"]), :has(> a[href*="showthread.php"][href$="t=1022692"]) + div.windowbg)
+##:is(tr:has(> td#td_threadtitle_654061), :has(> a[href*="showthread.php"][href$="t=654061"]), :has(> a[href*="showthread.php"][href$="t=654061"]) + div.windowbg)
+##:is(tr:has(> td#td_threadtitle_1071542), :has(> a[href*="showthread.php"][href$="t=1071542"]), :has(> a[href*="showthread.php"][href$="t=1071542"]) + div.windowbg)
 
 
 !-------------------------------Health Centre and KTV lounge Tangos----------------------------------- 
