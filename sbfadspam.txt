@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: SBF Advertiser Spam Blocker
 ! Expires: 23 hours (update frequency)
-! Last modified: 22 Oct 2026 06:05:46 +0800
+! Last modified: 23 Oct 2026 06:05:47 +0800
 
 !------------------------------Site Banners---------------------------
 ||sammyboyforum.com/bannergraphics/
@@ -11,11 +11,13 @@
 ||sbfonline.site/bannergraphics/
 ||sbfonline.site/images/twitter.png
 
-! Mobile: Block banner at the end of threads
+! Block banner at the end of threads
+! Modern Mobile
 ##.mm-postbit-ad.mm-sponsor
-
-! Desktop: Block banner at the end of threads
-##table.tborder:has(img[src*="955640.jpg"])
+! Classic Mobile
+##.windowbg:has(img[src*="bannergraphics/"])
+! Modern, Modern Dark, Classic Blue
+##table.tborder:has(> tbody > tr > td.alt1 > div > a > img[src*="bannergraphics/"])
 
 ! Notice block at the top of the forum
 ###notices
@@ -24,7 +26,10 @@
 
 ! Sticky threads at the top of every sub forum
 ! ##tr.sbf-sticky
-!##div.sticky:has(> a[href*="showthread.php"])
+! ##div.sticky:has(> a[href*="showthread.php"])
+
+! Premium Nudge in every post
+/bannergraphics/sbf-premium-nudge.js
 
 !------------------------------------------------------------Keong Saik
 !BubblyxPOP
@@ -54,9 +59,9 @@
 ##:is(tr:has(> td#td_threadtitle_493723), :has(> a[href*="showthread.php"][href$="t=493723"]), :has(> a[href*="showthread.php"][href$="t=493723"]) + div.windowbg)
 
 !--------------------------------------------------The Legal Geylang (prostitute) Scene----------
-##:is(tr:has(> td#td_threadtitle_1003276), :has(> a[href*=""showthread.php""][href$=""t=1003276""]), :has(> a[href*=""showthread.php""][href$=""t=1003276""]) + div.windowbg)
-##:is(tr:has(> td#td_threadtitle_966769), :has(> a[href*=""showthread.php""][href$=""t=966769""]), :has(> a[href*=""showthread.php""][href$=""t=966769""]) + div.windowbg)
-##:is(tr:has(> td#td_threadtitle_1071308), :has(> a[href*=""showthread.php""][href$=""t=1071308""]), :has(> a[href*=""showthread.php""][href$=""t=1071308""]) + div.windowbg)
+##:is(tr:has(> td#td_threadtitle_1003276), :has(> a[href*="showthread.php"][href$="t=1003276"]), :has(> a[href*="showthread.php"][href$="t=1003276"]) + div.windowbg)
+##:is(tr:has(> td#td_threadtitle_966769), :has(> a[href*="showthread.php"][href$="t=966769"]), :has(> a[href*="showthread.php"][href$="t=966769"]) + div.windowbg)
+##:is(tr:has(> td#td_threadtitle_1071308), :has(> a[href*="showthread.php"][href$="t=1071308"]), :has(> a[href*="showthread.php"][href$="t=1071308"]) + div.windowbg)
 ##:is(tr:has(> td#td_threadtitle_337422), :has(> a[href*="showthread.php"][href$="t=337422"]), :has(> a[href*="showthread.php"][href$="t=337422"]) + div.windowbg)
 
 !--------------------------------------------------Adult Discussions about SEX----------------------------
@@ -66,259 +71,261 @@
 ##:is(tr:has(> td#td_threadtitle_1022692), :has(> a[href*="showthread.php"][href$="t=1022692"]), :has(> a[href*="showthread.php"][href$="t=1022692"]) + div.windowbg)
 ##:is(tr:has(> td#td_threadtitle_654061), :has(> a[href*="showthread.php"][href$="t=654061"]), :has(> a[href*="showthread.php"][href$="t=654061"]) + div.windowbg)
 ##:is(tr:has(> td#td_threadtitle_1071542), :has(> a[href*="showthread.php"][href$="t=1071542"]), :has(> a[href*="showthread.php"][href$="t=1071542"]) + div.windowbg)
-
+##:is(tr:has(> td#td_threadtitle_655809), :has(> a[href*="showthread.php"][href$="t=655809"]), :has(> a[href*="showthread.php"][href$="t=655809"]) + div.windowbg)
+##:is(tr:has(> td#td_threadtitle_577062), :has(> a[href*="showthread.php"][href$="t=577062"]), :has(> a[href*="showthread.php"][href$="t=577062"]) + div.windowbg)
+##:is(tr:has(> td#td_threadtitle_349391), :has(> a[href*="showthread.php"][href$="t=349391"]), :has(> a[href*="showthread.php"][href$="t=349391"]) + div.windowbg)
 
 !-------------------------------Health Centre and KTV lounge Tangos----------------------------------- 
 
 
-##tr:has(> td#td_threadtitle_929503)
+##:is(tr:has(> td#td_threadtitle_929503), :has(> a[href*="showthread.php"][href$="t=929503"]), :has(> a[href*="showthread.php"][href$="t=929503"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1034674)
+##:is(tr:has(> td#td_threadtitle_1034674), :has(> a[href*="showthread.php"][href$="t=1034674"]), :has(> a[href*="showthread.php"][href$="t=1034674"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1057981)
+##:is(tr:has(> td#td_threadtitle_1057981), :has(> a[href*="showthread.php"][href$="t=1057981"]), :has(> a[href*="showthread.php"][href$="t=1057981"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1079024)
+##:is(tr:has(> td#td_threadtitle_1079024), :has(> a[href*="showthread.php"][href$="t=1079024"]), :has(> a[href*="showthread.php"][href$="t=1079024"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1080420)
+##:is(tr:has(> td#td_threadtitle_1080420), :has(> a[href*="showthread.php"][href$="t=1080420"]), :has(> a[href*="showthread.php"][href$="t=1080420"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1082141)
+##:is(tr:has(> td#td_threadtitle_1082141), :has(> a[href*="showthread.php"][href$="t=1082141"]), :has(> a[href*="showthread.php"][href$="t=1082141"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1084250)
+##:is(tr:has(> td#td_threadtitle_1084250), :has(> a[href*="showthread.php"][href$="t=1084250"]), :has(> a[href*="showthread.php"][href$="t=1084250"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1092003)
+##:is(tr:has(> td#td_threadtitle_1092003), :has(> a[href*="showthread.php"][href$="t=1092003"]), :has(> a[href*="showthread.php"][href$="t=1092003"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1092360)
+##:is(tr:has(> td#td_threadtitle_1092360), :has(> a[href*="showthread.php"][href$="t=1092360"]), :has(> a[href*="showthread.php"][href$="t=1092360"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1094874)
+##:is(tr:has(> td#td_threadtitle_1094874), :has(> a[href*="showthread.php"][href$="t=1094874"]), :has(> a[href*="showthread.php"][href$="t=1094874"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1099943)
+##:is(tr:has(> td#td_threadtitle_1099943), :has(> a[href*="showthread.php"][href$="t=1099943"]), :has(> a[href*="showthread.php"][href$="t=1099943"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1102813)
+##:is(tr:has(> td#td_threadtitle_1102813), :has(> a[href*="showthread.php"][href$="t=1102813"]), :has(> a[href*="showthread.php"][href$="t=1102813"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1102838)
+##:is(tr:has(> td#td_threadtitle_1102838), :has(> a[href*="showthread.php"][href$="t=1102838"]), :has(> a[href*="showthread.php"][href$="t=1102838"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1106656)
+##:is(tr:has(> td#td_threadtitle_1106656), :has(> a[href*="showthread.php"][href$="t=1106656"]), :has(> a[href*="showthread.php"][href$="t=1106656"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1108431)
+##:is(tr:has(> td#td_threadtitle_1108431), :has(> a[href*="showthread.php"][href$="t=1108431"]), :has(> a[href*="showthread.php"][href$="t=1108431"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1111251)
+##:is(tr:has(> td#td_threadtitle_1111251), :has(> a[href*="showthread.php"][href$="t=1111251"]), :has(> a[href*="showthread.php"][href$="t=1111251"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1113771)
+##:is(tr:has(> td#td_threadtitle_1113771), :has(> a[href*="showthread.php"][href$="t=1113771"]), :has(> a[href*="showthread.php"][href$="t=1113771"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1118104)
+##:is(tr:has(> td#td_threadtitle_1118104), :has(> a[href*="showthread.php"][href$="t=1118104"]), :has(> a[href*="showthread.php"][href$="t=1118104"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1118108)
+##:is(tr:has(> td#td_threadtitle_1118108), :has(> a[href*="showthread.php"][href$="t=1118108"]), :has(> a[href*="showthread.php"][href$="t=1118108"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1120696)
+##:is(tr:has(> td#td_threadtitle_1120696), :has(> a[href*="showthread.php"][href$="t=1120696"]), :has(> a[href*="showthread.php"][href$="t=1120696"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1122288)
+##:is(tr:has(> td#td_threadtitle_1122288), :has(> a[href*="showthread.php"][href$="t=1122288"]), :has(> a[href*="showthread.php"][href$="t=1122288"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1122414)
+##:is(tr:has(> td#td_threadtitle_1122414), :has(> a[href*="showthread.php"][href$="t=1122414"]), :has(> a[href*="showthread.php"][href$="t=1122414"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1123744)
+##:is(tr:has(> td#td_threadtitle_1123744), :has(> a[href*="showthread.php"][href$="t=1123744"]), :has(> a[href*="showthread.php"][href$="t=1123744"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1123976)
+##:is(tr:has(> td#td_threadtitle_1123976), :has(> a[href*="showthread.php"][href$="t=1123976"]), :has(> a[href*="showthread.php"][href$="t=1123976"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1125225)
+##:is(tr:has(> td#td_threadtitle_1125225), :has(> a[href*="showthread.php"][href$="t=1125225"]), :has(> a[href*="showthread.php"][href$="t=1125225"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1126852)
+##:is(tr:has(> td#td_threadtitle_1127626), :has(> a[href*="showthread.php"][href$="t=1127626"]), :has(> a[href*="showthread.php"][href$="t=1127626"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1127626)
+##:is(tr:has(> td#td_threadtitle_1127738), :has(> a[href*="showthread.php"][href$="t=1127738"]), :has(> a[href*="showthread.php"][href$="t=1127738"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1127738)
+##:is(tr:has(> td#td_threadtitle_1128839), :has(> a[href*="showthread.php"][href$="t=1128839"]), :has(> a[href*="showthread.php"][href$="t=1128839"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1128839)
+##:is(tr:has(> td#td_threadtitle_1129466), :has(> a[href*="showthread.php"][href$="t=1129466"]), :has(> a[href*="showthread.php"][href$="t=1129466"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1128849)
+##:is(tr:has(> td#td_threadtitle_1129891), :has(> a[href*="showthread.php"][href$="t=1129891"]), :has(> a[href*="showthread.php"][href$="t=1129891"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1129466)
+##:is(tr:has(> td#td_threadtitle_1129910), :has(> a[href*="showthread.php"][href$="t=1129910"]), :has(> a[href*="showthread.php"][href$="t=1129910"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1129823)
+##:is(tr:has(> td#td_threadtitle_1129976), :has(> a[href*="showthread.php"][href$="t=1129976"]), :has(> a[href*="showthread.php"][href$="t=1129976"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1129891)
+##:is(tr:has(> td#td_threadtitle_1131055), :has(> a[href*="showthread.php"][href$="t=1131055"]), :has(> a[href*="showthread.php"][href$="t=1131055"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1129910)
+##:is(tr:has(> td#td_threadtitle_1131115), :has(> a[href*="showthread.php"][href$="t=1131115"]), :has(> a[href*="showthread.php"][href$="t=1131115"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1129976)
+##:is(tr:has(> td#td_threadtitle_1133640), :has(> a[href*="showthread.php"][href$="t=1133640"]), :has(> a[href*="showthread.php"][href$="t=1133640"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1131055)
+##:is(tr:has(> td#td_threadtitle_1134019), :has(> a[href*="showthread.php"][href$="t=1134019"]), :has(> a[href*="showthread.php"][href$="t=1134019"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1131115)
+##:is(tr:has(> td#td_threadtitle_1134482), :has(> a[href*="showthread.php"][href$="t=1134482"]), :has(> a[href*="showthread.php"][href$="t=1134482"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1133640)
+##:is(tr:has(> td#td_threadtitle_1134884), :has(> a[href*="showthread.php"][href$="t=1134884"]), :has(> a[href*="showthread.php"][href$="t=1134884"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1134019)
+##:is(tr:has(> td#td_threadtitle_1135256), :has(> a[href*="showthread.php"][href$="t=1135256"]), :has(> a[href*="showthread.php"][href$="t=1135256"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1134482)
+##:is(tr:has(> td#td_threadtitle_1136009), :has(> a[href*="showthread.php"][href$="t=1136009"]), :has(> a[href*="showthread.php"][href$="t=1136009"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1134884)
+##:is(tr:has(> td#td_threadtitle_1136718), :has(> a[href*="showthread.php"][href$="t=1136718"]), :has(> a[href*="showthread.php"][href$="t=1136718"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1135256)
+##:is(tr:has(> td#td_threadtitle_1136885), :has(> a[href*="showthread.php"][href$="t=1136885"]), :has(> a[href*="showthread.php"][href$="t=1136885"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1136009)
+##:is(tr:has(> td#td_threadtitle_1137536), :has(> a[href*="showthread.php"][href$="t=1137536"]), :has(> a[href*="showthread.php"][href$="t=1137536"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1136718)
+##:is(tr:has(> td#td_threadtitle_1137580), :has(> a[href*="showthread.php"][href$="t=1137580"]), :has(> a[href*="showthread.php"][href$="t=1137580"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1136885)
+##:is(tr:has(> td#td_threadtitle_1138277), :has(> a[href*="showthread.php"][href$="t=1138277"]), :has(> a[href*="showthread.php"][href$="t=1138277"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1137536)
+##:is(tr:has(> td#td_threadtitle_1138526), :has(> a[href*="showthread.php"][href$="t=1138526"]), :has(> a[href*="showthread.php"][href$="t=1138526"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1137580)
+##:is(tr:has(> td#td_threadtitle_1138895), :has(> a[href*="showthread.php"][href$="t=1138895"]), :has(> a[href*="showthread.php"][href$="t=1138895"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1138277)
+##:is(tr:has(> td#td_threadtitle_1139250), :has(> a[href*="showthread.php"][href$="t=1139250"]), :has(> a[href*="showthread.php"][href$="t=1139250"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1138526)
+##:is(tr:has(> td#td_threadtitle_1139932), :has(> a[href*="showthread.php"][href$="t=1139932"]), :has(> a[href*="showthread.php"][href$="t=1139932"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1138895)
+##:is(tr:has(> td#td_threadtitle_1140438), :has(> a[href*="showthread.php"][href$="t=1140438"]), :has(> a[href*="showthread.php"][href$="t=1140438"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1139932)
+##:is(tr:has(> td#td_threadtitle_1140839), :has(> a[href*="showthread.php"][href$="t=1140839"]), :has(> a[href*="showthread.php"][href$="t=1140839"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1140438)
+##:is(tr:has(> td#td_threadtitle_1140913), :has(> a[href*="showthread.php"][href$="t=1140913"]), :has(> a[href*="showthread.php"][href$="t=1140913"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1140839)
+##:is(tr:has(> td#td_threadtitle_1141076), :has(> a[href*="showthread.php"][href$="t=1141076"]), :has(> a[href*="showthread.php"][href$="t=1141076"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1140913)
+##:is(tr:has(> td#td_threadtitle_1141274), :has(> a[href*="showthread.php"][href$="t=1141274"]), :has(> a[href*="showthread.php"][href$="t=1141274"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1141076)
+##:is(tr:has(> td#td_threadtitle_1141347), :has(> a[href*="showthread.php"][href$="t=1141347"]), :has(> a[href*="showthread.php"][href$="t=1141347"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1141274)
+##:is(tr:has(> td#td_threadtitle_1141349), :has(> a[href*="showthread.php"][href$="t=1141349"]), :has(> a[href*="showthread.php"][href$="t=1141349"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1141347)
+##:is(tr:has(> td#td_threadtitle_1141596), :has(> a[href*="showthread.php"][href$="t=1141596"]), :has(> a[href*="showthread.php"][href$="t=1141596"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1141349)
+##:is(tr:has(> td#td_threadtitle_1141781), :has(> a[href*="showthread.php"][href$="t=1141781"]), :has(> a[href*="showthread.php"][href$="t=1141781"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1141596)
+##:is(tr:has(> td#td_threadtitle_1142265), :has(> a[href*="showthread.php"][href$="t=1142265"]), :has(> a[href*="showthread.php"][href$="t=1142265"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1141781)
+##:is(tr:has(> td#td_threadtitle_1142369), :has(> a[href*="showthread.php"][href$="t=1142369"]), :has(> a[href*="showthread.php"][href$="t=1142369"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1142265)
+##:is(tr:has(> td#td_threadtitle_1142987), :has(> a[href*="showthread.php"][href$="t=1142987"]), :has(> a[href*="showthread.php"][href$="t=1142987"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1142369)
+##:is(tr:has(> td#td_threadtitle_1143192), :has(> a[href*="showthread.php"][href$="t=1143192"]), :has(> a[href*="showthread.php"][href$="t=1143192"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1142987)
+##:is(tr:has(> td#td_threadtitle_1143287), :has(> a[href*="showthread.php"][href$="t=1143287"]), :has(> a[href*="showthread.php"][href$="t=1143287"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1143192)
+##:is(tr:has(> td#td_threadtitle_1143502), :has(> a[href*="showthread.php"][href$="t=1143502"]), :has(> a[href*="showthread.php"][href$="t=1143502"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1143287)
+##:is(tr:has(> td#td_threadtitle_1143713), :has(> a[href*="showthread.php"][href$="t=1143713"]), :has(> a[href*="showthread.php"][href$="t=1143713"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1143502)
+##:is(tr:has(> td#td_threadtitle_1143827), :has(> a[href*="showthread.php"][href$="t=1143827"]), :has(> a[href*="showthread.php"][href$="t=1143827"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1143713)
+##:is(tr:has(> td#td_threadtitle_1143935), :has(> a[href*="showthread.php"][href$="t=1143935"]), :has(> a[href*="showthread.php"][href$="t=1143935"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1143827)
+##:is(tr:has(> td#td_threadtitle_1144299), :has(> a[href*="showthread.php"][href$="t=1144299"]), :has(> a[href*="showthread.php"][href$="t=1144299"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1143935)
+##:is(tr:has(> td#td_threadtitle_1144326), :has(> a[href*="showthread.php"][href$="t=1144326"]), :has(> a[href*="showthread.php"][href$="t=1144326"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1144299)
+##:is(tr:has(> td#td_threadtitle_1144515), :has(> a[href*="showthread.php"][href$="t=1144515"]), :has(> a[href*="showthread.php"][href$="t=1144515"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1144326)
+##:is(tr:has(> td#td_threadtitle_1144567), :has(> a[href*="showthread.php"][href$="t=1144567"]), :has(> a[href*="showthread.php"][href$="t=1144567"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1144515)
+##:is(tr:has(> td#td_threadtitle_1144894), :has(> a[href*="showthread.php"][href$="t=1144894"]), :has(> a[href*="showthread.php"][href$="t=1144894"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1144567)
+##:is(tr:has(> td#td_threadtitle_1144983), :has(> a[href*="showthread.php"][href$="t=1144983"]), :has(> a[href*="showthread.php"][href$="t=1144983"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1144894)
+##:is(tr:has(> td#td_threadtitle_1146152), :has(> a[href*="showthread.php"][href$="t=1146152"]), :has(> a[href*="showthread.php"][href$="t=1146152"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1144983)
+##:is(tr:has(> td#td_threadtitle_1146174), :has(> a[href*="showthread.php"][href$="t=1146174"]), :has(> a[href*="showthread.php"][href$="t=1146174"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1146152)
+##:is(tr:has(> td#td_threadtitle_1146235), :has(> a[href*="showthread.php"][href$="t=1146235"]), :has(> a[href*="showthread.php"][href$="t=1146235"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1146174)
+##:is(tr:has(> td#td_threadtitle_1146288), :has(> a[href*="showthread.php"][href$="t=1146288"]), :has(> a[href*="showthread.php"][href$="t=1146288"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1146235)
+##:is(tr:has(> td#td_threadtitle_1146327), :has(> a[href*="showthread.php"][href$="t=1146327"]), :has(> a[href*="showthread.php"][href$="t=1146327"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1146288)
+##:is(tr:has(> td#td_threadtitle_1146545), :has(> a[href*="showthread.php"][href$="t=1146545"]), :has(> a[href*="showthread.php"][href$="t=1146545"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1146327)
+##:is(tr:has(> td#td_threadtitle_1146722), :has(> a[href*="showthread.php"][href$="t=1146722"]), :has(> a[href*="showthread.php"][href$="t=1146722"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1146545)
+##:is(tr:has(> td#td_threadtitle_1146739), :has(> a[href*="showthread.php"][href$="t=1146739"]), :has(> a[href*="showthread.php"][href$="t=1146739"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1146722)
+##:is(tr:has(> td#td_threadtitle_1146784), :has(> a[href*="showthread.php"][href$="t=1146784"]), :has(> a[href*="showthread.php"][href$="t=1146784"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1146739)
+##:is(tr:has(> td#td_threadtitle_1146792), :has(> a[href*="showthread.php"][href$="t=1146792"]), :has(> a[href*="showthread.php"][href$="t=1146792"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1146784)
+##:is(tr:has(> td#td_threadtitle_1146998), :has(> a[href*="showthread.php"][href$="t=1146998"]), :has(> a[href*="showthread.php"][href$="t=1146998"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1146792)
+##:is(tr:has(> td#td_threadtitle_1147054), :has(> a[href*="showthread.php"][href$="t=1147054"]), :has(> a[href*="showthread.php"][href$="t=1147054"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1146998)
+##:is(tr:has(> td#td_threadtitle_1147399), :has(> a[href*="showthread.php"][href$="t=1147399"]), :has(> a[href*="showthread.php"][href$="t=1147399"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1147054)
+##:is(tr:has(> td#td_threadtitle_1147595), :has(> a[href*="showthread.php"][href$="t=1147595"]), :has(> a[href*="showthread.php"][href$="t=1147595"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1147399)
+##:is(tr:has(> td#td_threadtitle_1147699), :has(> a[href*="showthread.php"][href$="t=1147699"]), :has(> a[href*="showthread.php"][href$="t=1147699"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1147595)
+##:is(tr:has(> td#td_threadtitle_1147780), :has(> a[href*="showthread.php"][href$="t=1147780"]), :has(> a[href*="showthread.php"][href$="t=1147780"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1147699)
+##:is(tr:has(> td#td_threadtitle_1147781), :has(> a[href*="showthread.php"][href$="t=1147781"]), :has(> a[href*="showthread.php"][href$="t=1147781"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1147780)
+##:is(tr:has(> td#td_threadtitle_1147842), :has(> a[href*="showthread.php"][href$="t=1147842"]), :has(> a[href*="showthread.php"][href$="t=1147842"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1147781)
+##:is(tr:has(> td#td_threadtitle_1147883), :has(> a[href*="showthread.php"][href$="t=1147883"]), :has(> a[href*="showthread.php"][href$="t=1147883"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1147842)
+##:is(tr:has(> td#td_threadtitle_1148255), :has(> a[href*="showthread.php"][href$="t=1148255"]), :has(> a[href*="showthread.php"][href$="t=1148255"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1147883)
+##:is(tr:has(> td#td_threadtitle_724056), :has(> a[href*="showthread.php"][href$="t=724056"]), :has(> a[href*="showthread.php"][href$="t=724056"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_724056)
+##:is(tr:has(> td#td_threadtitle_894231), :has(> a[href*="showthread.php"][href$="t=894231"]), :has(> a[href*="showthread.php"][href$="t=894231"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_894231)
+##:is(tr:has(> td#td_threadtitle_1011784), :has(> a[href*="showthread.php"][href$="t=1011784"]), :has(> a[href*="showthread.php"][href$="t=1011784"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1011784)
+##:is(tr:has(> td#td_threadtitle_1047220), :has(> a[href*="showthread.php"][href$="t=1047220"]), :has(> a[href*="showthread.php"][href$="t=1047220"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1047220)
+##:is(tr:has(> td#td_threadtitle_1070758), :has(> a[href*="showthread.php"][href$="t=1070758"]), :has(> a[href*="showthread.php"][href$="t=1070758"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1070758)
+##:is(tr:has(> td#td_threadtitle_1078744), :has(> a[href*="showthread.php"][href$="t=1078744"]), :has(> a[href*="showthread.php"][href$="t=1078744"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1078744)
+##:is(tr:has(> td#td_threadtitle_1089621), :has(> a[href*="showthread.php"][href$="t=1089621"]), :has(> a[href*="showthread.php"][href$="t=1089621"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1089621)
+##:is(tr:has(> td#td_threadtitle_1109433), :has(> a[href*="showthread.php"][href$="t=1109433"]), :has(> a[href*="showthread.php"][href$="t=1109433"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1109433)
+##:is(tr:has(> td#td_threadtitle_1111729), :has(> a[href*="showthread.php"][href$="t=1111729"]), :has(> a[href*="showthread.php"][href$="t=1111729"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1111729)
+##:is(tr:has(> td#td_threadtitle_1112586), :has(> a[href*="showthread.php"][href$="t=1112586"]), :has(> a[href*="showthread.php"][href$="t=1112586"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1112586)
+##:is(tr:has(> td#td_threadtitle_1119710), :has(> a[href*="showthread.php"][href$="t=1119710"]), :has(> a[href*="showthread.php"][href$="t=1119710"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1119710)
+##:is(tr:has(> td#td_threadtitle_1125671), :has(> a[href*="showthread.php"][href$="t=1125671"]), :has(> a[href*="showthread.php"][href$="t=1125671"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1125671)
+##:is(tr:has(> td#td_threadtitle_1125847), :has(> a[href*="showthread.php"][href$="t=1125847"]), :has(> a[href*="showthread.php"][href$="t=1125847"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1125847)
+##:is(tr:has(> td#td_threadtitle_1129015), :has(> a[href*="showthread.php"][href$="t=1129015"]), :has(> a[href*="showthread.php"][href$="t=1129015"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1129015)
+##:is(tr:has(> td#td_threadtitle_1131289), :has(> a[href*="showthread.php"][href$="t=1131289"]), :has(> a[href*="showthread.php"][href$="t=1131289"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1131289)
+##:is(tr:has(> td#td_threadtitle_1131987), :has(> a[href*="showthread.php"][href$="t=1131987"]), :has(> a[href*="showthread.php"][href$="t=1131987"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1131987)
+##:is(tr:has(> td#td_threadtitle_1133376), :has(> a[href*="showthread.php"][href$="t=1133376"]), :has(> a[href*="showthread.php"][href$="t=1133376"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1133376)
+##:is(tr:has(> td#td_threadtitle_1134234), :has(> a[href*="showthread.php"][href$="t=1134234"]), :has(> a[href*="showthread.php"][href$="t=1134234"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1134234)
+##:is(tr:has(> td#td_threadtitle_1134359), :has(> a[href*="showthread.php"][href$="t=1134359"]), :has(> a[href*="showthread.php"][href$="t=1134359"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1134359)
+##:is(tr:has(> td#td_threadtitle_1136427), :has(> a[href*="showthread.php"][href$="t=1136427"]), :has(> a[href*="showthread.php"][href$="t=1136427"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1136427)
+##:is(tr:has(> td#td_threadtitle_1139355), :has(> a[href*="showthread.php"][href$="t=1139355"]), :has(> a[href*="showthread.php"][href$="t=1139355"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1139355)
+##:is(tr:has(> td#td_threadtitle_1141770), :has(> a[href*="showthread.php"][href$="t=1141770"]), :has(> a[href*="showthread.php"][href$="t=1141770"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1141770)
+##:is(tr:has(> td#td_threadtitle_1141774), :has(> a[href*="showthread.php"][href$="t=1141774"]), :has(> a[href*="showthread.php"][href$="t=1141774"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1141774)
+##:is(tr:has(> td#td_threadtitle_1142766), :has(> a[href*="showthread.php"][href$="t=1142766"]), :has(> a[href*="showthread.php"][href$="t=1142766"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1142766)
+##:is(tr:has(> td#td_threadtitle_1145718), :has(> a[href*="showthread.php"][href$="t=1145718"]), :has(> a[href*="showthread.php"][href$="t=1145718"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1145718)
+##:is(tr:has(> td#td_threadtitle_1145998), :has(> a[href*="showthread.php"][href$="t=1145998"]), :has(> a[href*="showthread.php"][href$="t=1145998"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1145998)
+##:is(tr:has(> td#td_threadtitle_1146710), :has(> a[href*="showthread.php"][href$="t=1146710"]), :has(> a[href*="showthread.php"][href$="t=1146710"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1146710)
+##:is(tr:has(> td#td_threadtitle_1147077), :has(> a[href*="showthread.php"][href$="t=1147077"]), :has(> a[href*="showthread.php"][href$="t=1147077"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1147077)
+##:is(tr:has(> td#td_threadtitle_1147174), :has(> a[href*="showthread.php"][href$="t=1147174"]), :has(> a[href*="showthread.php"][href$="t=1147174"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1147174)
+##:is(tr:has(> td#td_threadtitle_1147285), :has(> a[href*="showthread.php"][href$="t=1147285"]), :has(> a[href*="showthread.php"][href$="t=1147285"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1147285)
+##:is(tr:has(> td#td_threadtitle_1147329), :has(> a[href*="showthread.php"][href$="t=1147329"]), :has(> a[href*="showthread.php"][href$="t=1147329"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1147329)
+##:is(tr:has(> td#td_threadtitle_1147752), :has(> a[href*="showthread.php"][href$="t=1147752"]), :has(> a[href*="showthread.php"][href$="t=1147752"]) + div.windowbg)
 
-##tr:has(> td#td_threadtitle_1147752)
+##:is(tr:has(> td#td_threadtitle_1148391), :has(> a[href*="showthread.php"][href$="t=1148391"]), :has(> a[href*="showthread.php"][href$="t=1148391"]) + div.windowbg)
