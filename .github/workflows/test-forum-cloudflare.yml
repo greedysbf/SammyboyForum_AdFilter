@@ -28,15 +28,17 @@ jobs:
         with:
           node-version: 22
 
-      - name: Install Playwright
+      - name: Install Playwright + stealth
         run: |
-          npm install --no-save playwright
+          npm install --no-save playwright playwright-extra puppeteer-extra-plugin-stealth
           npx playwright install --with-deps chromium
 
       - name: Test forum access
         run: |
-          node <<'EOF'
-          const { chromium } = require('playwright');
+          xvfb-run -a node <<'EOF'
+          const { chromium } = require('playwright-extra');
+          const stealth = require('puppeteer-extra-plugin-stealth');
+          chromium.use(stealth());
 
           let url = process.env.FORUM_URL;
           if (!url) {
@@ -52,10 +54,22 @@ jobs:
             let browser;
             try {
               browser = await chromium.launch({
-                headless: true,
-                args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage']
+                headless: false,
+                args: [
+                  '--no-sandbox',
+                  '--disable-setuid-sandbox',
+                  '--disable-dev-shm-usage',
+                  '--disable-blink-features=AutomationControlled',
+                  '--window-size=1920,1080'
+                ]
               });
-              const page = await browser.newPage();
+              const context = await browser.newContext({
+                viewport: { width: 1920, height: 1080 },
+                userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                locale: 'en-US',
+                timezoneId: 'America/New_York'
+              });
+              const page = await context.newPage();
 
               const response = await page.goto(url, {
                 waitUntil: 'domcontentloaded',
