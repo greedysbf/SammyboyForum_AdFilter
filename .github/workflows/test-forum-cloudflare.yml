@@ -78,6 +78,21 @@ jobs:
 
               await page.waitForTimeout(10000);
 
+              // Attempt to click the Cloudflare Turnstile checkbox (managed challenge)
+              try {
+                const turnstileFrame = page.frameLocator('iframe[src*="challenges.cloudflare.com"]');
+                const checkbox = turnstileFrame.locator('input[type="checkbox"], .cb, #checkbox, [role="checkbox"]').first();
+                if (await checkbox.count() > 0) {
+                  await checkbox.click({ timeout: 5000 });
+                  console.log('Turnstile checkbox clicked');
+                  await page.waitForTimeout(8000);
+                } else {
+                  console.log('No Turnstile checkbox found in frame');
+                }
+              } catch (e) {
+                console.log('Turnstile click attempt failed:', e.message);
+              }
+
               const result = await page.evaluate(() => ({
                 title: document.title,
                 url: location.href,
