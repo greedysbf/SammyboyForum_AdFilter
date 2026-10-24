@@ -96,7 +96,7 @@ jobs:
                   else:
                       print('RESULT: PAGE LOADED — NO CHALLENGE')
               finally:
-                  await browser.stop()
+                  browser.stop()
 
           asyncio.run(main())
           PYEOF
