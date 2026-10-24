@@ -1,4 +1,4 @@
-name: Test Forum Cloudflare Access
+name: Test Forum Cloudflare Access (nodriver)
 
 on:
   workflow_dispatch:
@@ -7,9 +7,6 @@ on:
         description: 'Forum domain to test (optional — falls back to FORUM_URL variable)'
         required: false
         type: string
-  # Optional: run on a schedule using the default variable
-  # schedule:
-  #   - cron: '0 0 * * *'
 
 permissions:
   contents: read
@@ -23,120 +20,83 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          node-version: 22
+          python-version: '3.11'
 
-      - name: Install Playwright + stealth
+      - name: Install Chrome and Xvfb
         run: |
-          npm install --no-save playwright playwright-extra puppeteer-extra-plugin-stealth
-          npx playwright install --with-deps chromium
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq chromium-browser xvfb
 
-      - name: Test forum access
+      - name: Install nodriver
+        run: pip install nodriver
+
+      - name: Clone EzSolver
+        run: git clone https://github.com/ismoiloffS/EzSolver.git /tmp/ezsolver
+
+      - name: Test access with nodriver
         run: |
-          xvfb-run -a node <<'EOF'
-          const { chromium } = require('playwright-extra');
-          const stealth = require('puppeteer-extra-plugin-stealth');
-          chromium.use(stealth());
+          xvfb-run -a python <<'PYEOF'
+          import asyncio, os, sys
+          import nodriver as uc
 
-          let url = process.env.FORUM_URL;
-          if (!url) {
-            console.error('RESULT: NO URL PROVIDED (set the domain input or the FORUM_URL repo variable)');
-            process.exit(1);
-          }
-          // Accept bare domains like "example.com" and assume https
-          if (!/^https?:\/\//i.test(url)) {
-            url = 'https://' + url;
-          }
+          url = os.environ.get('FORUM_URL', '')
+          if not url:
+              print('RESULT: NO URL PROVIDED')
+              sys.exit(1)
+          if not url.startswith('http'):
+              url = 'https://' + url
 
-          (async () => {
-            let browser;
-            try {
-              browser = await chromium.launch({
-                headless: false,
-                args: [
-                  '--no-sandbox',
-                  '--disable-setuid-sandbox',
-                  '--disable-dev-shm-usage',
-                  '--disable-blink-features=AutomationControlled',
-                  '--window-size=1920,1080'
-                ]
-              });
-              const context = await browser.newContext({
-                viewport: { width: 1920, height: 1080 },
-                userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-                locale: 'en-US',
-                timezoneId: 'America/New_York'
-              });
-              const page = await context.newPage();
+          async def main():
+              browser = await uc.start(
+                  browser_executable_path='/usr/bin/chromium-browser',
+                  headless=False,
+                  browser_args=[
+                      '--disable-dev-shm-usage',
+                      '--no-sandbox',
+                  ],
+              )
+              try:
+                  page = await browser.get(url)
+                  await asyncio.sleep(12)
 
-              const response = await page.goto(url, {
-                waitUntil: 'domcontentloaded',
-                timeout: 60000
-              });
+                  title = await page.evaluate('document.title')
+                  body = await page.evaluate('document.body ? document.body.innerText.slice(0, 1500) : ""')
+                  print('Page title:', title)
+                  print('Page body (first 500):', str(body)[:500])
 
-              await page.waitForTimeout(10000);
+                  haystack = (str(title) + ' ' + str(body)).lower()
+                  challenge = (
+                      'performing security verification' in haystack or
+                      'just a moment' in haystack or
+                      'verify you are human' in haystack or
+                      'checking your browser' in haystack
+                  )
 
-              // Attempt to click the Cloudflare Turnstile checkbox (managed challenge)
-              try {
-                const turnstileFrame = page.frameLocator('iframe[src*="challenges.cloudflare.com"]');
-                const checkbox = turnstileFrame.locator('input[type="checkbox"], .cb, #checkbox, [role="checkbox"]').first();
-                if (await checkbox.count() > 0) {
-                  await checkbox.click({ timeout: 5000 });
-                  console.log('Turnstile checkbox clicked');
-                  await page.waitForTimeout(8000);
-                } else {
-                  console.log('No Turnstile checkbox found in frame');
-                }
-              } catch (e) {
-                console.log('Turnstile click attempt failed:', e.message);
-              }
+                  # Try to find a Turnstile sitekey
+                  sitekey = await page.evaluate("""
+                      (() => {
+                          const el = document.querySelector('[data-sitekey]');
+                          if (el) return el.getAttribute('data-sitekey');
+                          for (const iframe of document.querySelectorAll('iframe')) {
+                              const src = iframe.src || iframe.getAttribute('src') || '';
+                              const m = src.match(/sitekey=([^&]+)/);
+                              if (m) return m[1];
+                          }
+                          return null;
+                      })()
+                  """)
+                  print('Detected sitekey:', sitekey)
 
-              const result = await page.evaluate(() => ({
-                title: document.title,
-                url: location.href,
-                body: (document.body?.innerText || '').slice(0, 1500),
-                challengeElements: !!document.querySelector(
-                  'iframe[src*="challenges.cloudflare.com"], ' +
-                  '#challenge-running, .cf-challenge, #cf-challenge-running'
-                )
-              }));
+                  if challenge:
+                      print('RESULT: CHALLENGE DETECTED')
+                      sys.exit(1)
+                  else:
+                      print('RESULT: PAGE LOADED — NO CHALLENGE')
+              finally:
+                  await browser.stop()
 
-              console.log('HTTP status:', response?.status());
-              console.log('Page title:', result.title);
-              console.log('Page URL:', result.url);
-              console.log('Page result:', JSON.stringify(result, null, 2));
-
-              const haystack = (result.title + ' ' + result.body).toLowerCase();
-              const challengeDetected =
-                result.challengeElements ||
-                /just a moment|verify you are human|checking your browser|performing security verification|attention required/i.test(haystack);
-
-              const failed =
-                !response || response.status() >= 400 ||
-                challengeDetected || !result.body.trim();
-
-              if (failed) {
-                console.log('RESULT: FAILED OR CHALLENGE DETECTED');
-                try { await page.screenshot({ path: 'failure.png', fullPage: true }); } catch (e) {}
-                process.exitCode = 1;
-              } else {
-                console.log('RESULT: PAGE LOADED — VERIFY CONTENT');
-              }
-            } catch (error) {
-              console.error('RESULT: NAVIGATION FAILED:', error.message);
-              process.exitCode = 1;
-            } finally {
-              if (browser) await browser.close();
-            }
-          })();
-          EOF
-
-      - name: Upload screenshot on failure
-        if: failure()
-        uses: actions/upload-artifact@v4
-        with:
-          name: failure-screenshot
-          path: failure.png
-          if-no-files-found: ignore
+          asyncio.run(main())
+          PYEOF
