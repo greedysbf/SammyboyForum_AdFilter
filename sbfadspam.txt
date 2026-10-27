@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: SBF Advertiser Spam Blocker
 ! Expires: 23 hours (update frequency)
-! Last modified: 27 Oct 2026 06:05:47 +0800
+! Last modified: 27 Oct 2026 06:05:49 +0800
 
 !------------------------------Site Banners---------------------------
 ||sammyboyforum.com/bannergraphics/
@@ -31,7 +31,7 @@
 ! Premium Nudge in every post
 /bannergraphics/sbf-premium-nudge.js
 
-!------------------------------------------------------------Keong Saik
+!------------------------------------------------------------Keong Saik-------------------
 !BubblyxPOP
 ##:is(tr:has(> td#td_threadtitle_1071547), :has(> a[href*="showthread.php"][href$="t=1071547"]), :has(> a[href*="showthread.php"][href$="t=1071547"]) + div.windowbg)
 
