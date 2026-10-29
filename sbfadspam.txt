@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: SBF Advertiser Spam Blocker
 ! Expires: 23 hours (update frequency)
-! Last modified: 28 Oct 2026 06:05:46 +0800
+! Last modified: 29 Oct 2026 06:05:46 +0800
 
 !------------------------------Site Banners---------------------------
 ||sammyboyforum.com/bannergraphics/
@@ -162,8 +162,6 @@
 
 ##:is(tr:has(> td#td_threadtitle_1138277), :has(> a[href*="showthread.php"][href$="t=1138277"]), :has(> a[href*="showthread.php"][href$="t=1138277"]) + div.windowbg)
 
-##:is(tr:has(> td#td_threadtitle_1138526), :has(> a[href*="showthread.php"][href$="t=1138526"]), :has(> a[href*="showthread.php"][href$="t=1138526"]) + div.windowbg)
-
 ##:is(tr:has(> td#td_threadtitle_1138895), :has(> a[href*="showthread.php"][href$="t=1138895"]), :has(> a[href*="showthread.php"][href$="t=1138895"]) + div.windowbg)
 
 ##:is(tr:has(> td#td_threadtitle_1139250), :has(> a[href*="showthread.php"][href$="t=1139250"]), :has(> a[href*="showthread.php"][href$="t=1139250"]) + div.windowbg)
@@ -177,6 +175,8 @@
 ##:is(tr:has(> td#td_threadtitle_1141347), :has(> a[href*="showthread.php"][href$="t=1141347"]), :has(> a[href*="showthread.php"][href$="t=1141347"]) + div.windowbg)
 
 ##:is(tr:has(> td#td_threadtitle_1141596), :has(> a[href*="showthread.php"][href$="t=1141596"]), :has(> a[href*="showthread.php"][href$="t=1141596"]) + div.windowbg)
+
+##:is(tr:has(> td#td_threadtitle_1141641), :has(> a[href*="showthread.php"][href$="t=1141641"]), :has(> a[href*="showthread.php"][href$="t=1141641"]) + div.windowbg)
 
 ##:is(tr:has(> td#td_threadtitle_1141781), :has(> a[href*="showthread.php"][href$="t=1141781"]), :has(> a[href*="showthread.php"][href$="t=1141781"]) + div.windowbg)
 
@@ -222,8 +222,6 @@
 
 ##:is(tr:has(> td#td_threadtitle_1146998), :has(> a[href*="showthread.php"][href$="t=1146998"]), :has(> a[href*="showthread.php"][href$="t=1146998"]) + div.windowbg)
 
-##:is(tr:has(> td#td_threadtitle_1147054), :has(> a[href*="showthread.php"][href$="t=1147054"]), :has(> a[href*="showthread.php"][href$="t=1147054"]) + div.windowbg)
-
 ##:is(tr:has(> td#td_threadtitle_1147399), :has(> a[href*="showthread.php"][href$="t=1147399"]), :has(> a[href*="showthread.php"][href$="t=1147399"]) + div.windowbg)
 
 ##:is(tr:has(> td#td_threadtitle_1147595), :has(> a[href*="showthread.php"][href$="t=1147595"]), :has(> a[href*="showthread.php"][href$="t=1147595"]) + div.windowbg)
@@ -257,6 +255,8 @@
 ##:is(tr:has(> td#td_threadtitle_1149407), :has(> a[href*="showthread.php"][href$="t=1149407"]), :has(> a[href*="showthread.php"][href$="t=1149407"]) + div.windowbg)
 
 ##:is(tr:has(> td#td_threadtitle_1149466), :has(> a[href*="showthread.php"][href$="t=1149466"]), :has(> a[href*="showthread.php"][href$="t=1149466"]) + div.windowbg)
+
+##:is(tr:has(> td#td_threadtitle_1149698), :has(> a[href*="showthread.php"][href$="t=1149698"]), :has(> a[href*="showthread.php"][href$="t=1149698"]) + div.windowbg)
 
 ##:is(tr:has(> td#td_threadtitle_724056), :has(> a[href*="showthread.php"][href$="t=724056"]), :has(> a[href*="showthread.php"][href$="t=724056"]) + div.windowbg)
 
