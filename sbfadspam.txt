@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: SBF Advertiser Spam Blocker
 ! Expires: 23 hours (update frequency)
-! Last modified: 17 Nov 2026 06:05:46 +0800
+! Last modified: 18 Nov 2026 06:05:46 +0800
 
 !------------------------------Site Banners---------------------------
 ||sammyboyforum.com/bannergraphics/
@@ -268,6 +268,8 @@
 
 ##:is(tr:has(> td#td_threadtitle_1155456), :has(> a[href*="showthread.php"][href$="t=1155456"]), :has(> a[href*="showthread.php"][href$="t=1155456"]) + div.windowbg)
 
+##:is(tr:has(> td#td_threadtitle_1155539), :has(> a[href*="showthread.php"][href$="t=1155539"]), :has(> a[href*="showthread.php"][href$="t=1155539"]) + div.windowbg)
+
 ##:is(tr:has(> td#td_threadtitle_724056), :has(> a[href*="showthread.php"][href$="t=724056"]), :has(> a[href*="showthread.php"][href$="t=724056"]) + div.windowbg)
 
 ##:is(tr:has(> td#td_threadtitle_894231), :has(> a[href*="showthread.php"][href$="t=894231"]), :has(> a[href*="showthread.php"][href$="t=894231"]) + div.windowbg)
@@ -306,8 +308,6 @@
 
 ##:is(tr:has(> td#td_threadtitle_1141774), :has(> a[href*="showthread.php"][href$="t=1141774"]), :has(> a[href*="showthread.php"][href$="t=1141774"]) + div.windowbg)
 
-##:is(tr:has(> td#td_threadtitle_1146710), :has(> a[href*="showthread.php"][href$="t=1146710"]), :has(> a[href*="showthread.php"][href$="t=1146710"]) + div.windowbg)
-
 ##:is(tr:has(> td#td_threadtitle_1147077), :has(> a[href*="showthread.php"][href$="t=1147077"]), :has(> a[href*="showthread.php"][href$="t=1147077"]) + div.windowbg)
 
 ##:is(tr:has(> td#td_threadtitle_1147329), :has(> a[href*="showthread.php"][href$="t=1147329"]), :has(> a[href*="showthread.php"][href$="t=1147329"]) + div.windowbg)
@@ -329,3 +329,5 @@
 ##:is(tr:has(> td#td_threadtitle_1155395), :has(> a[href*="showthread.php"][href$="t=1155395"]), :has(> a[href*="showthread.php"][href$="t=1155395"]) + div.windowbg)
 
 ##:is(tr:has(> td#td_threadtitle_1155403), :has(> a[href*="showthread.php"][href$="t=1155403"]), :has(> a[href*="showthread.php"][href$="t=1155403"]) + div.windowbg)
+
+##:is(tr:has(> td#td_threadtitle_1155618), :has(> a[href*="showthread.php"][href$="t=1155618"]), :has(> a[href*="showthread.php"][href$="t=1155618"]) + div.windowbg)
