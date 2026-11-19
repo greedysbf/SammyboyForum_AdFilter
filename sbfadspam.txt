@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: SBF Advertiser Spam Blocker
 ! Expires: 23 hours (update frequency)
-! Last modified: 18 Nov 2026 06:05:46 +0800
+! Last modified: 19 Nov 2026 06:05:47 +0800
 
 !------------------------------Site Banners---------------------------
 ||sammyboyforum.com/bannergraphics/
@@ -94,8 +94,6 @@
 
 ##:is(tr:has(> td#td_threadtitle_1082141), :has(> a[href*="showthread.php"][href$="t=1082141"]), :has(> a[href*="showthread.php"][href$="t=1082141"]) + div.windowbg)
 
-##:is(tr:has(> td#td_threadtitle_1084250), :has(> a[href*="showthread.php"][href$="t=1084250"]), :has(> a[href*="showthread.php"][href$="t=1084250"]) + div.windowbg)
-
 ##:is(tr:has(> td#td_threadtitle_1092003), :has(> a[href*="showthread.php"][href$="t=1092003"]), :has(> a[href*="showthread.php"][href$="t=1092003"]) + div.windowbg)
 
 ##:is(tr:has(> td#td_threadtitle_1092360), :has(> a[href*="showthread.php"][href$="t=1092360"]), :has(> a[href*="showthread.php"][href$="t=1092360"]) + div.windowbg)
@@ -186,8 +184,6 @@
 
 ##:is(tr:has(> td#td_threadtitle_1146784), :has(> a[href*="showthread.php"][href$="t=1146784"]), :has(> a[href*="showthread.php"][href$="t=1146784"]) + div.windowbg)
 
-##:is(tr:has(> td#td_threadtitle_1146792), :has(> a[href*="showthread.php"][href$="t=1146792"]), :has(> a[href*="showthread.php"][href$="t=1146792"]) + div.windowbg)
-
 ##:is(tr:has(> td#td_threadtitle_1146998), :has(> a[href*="showthread.php"][href$="t=1146998"]), :has(> a[href*="showthread.php"][href$="t=1146998"]) + div.windowbg)
 
 ##:is(tr:has(> td#td_threadtitle_1147399), :has(> a[href*="showthread.php"][href$="t=1147399"]), :has(> a[href*="showthread.php"][href$="t=1147399"]) + div.windowbg)
@@ -236,13 +232,9 @@
 
 ##:is(tr:has(> td#td_threadtitle_1151759), :has(> a[href*="showthread.php"][href$="t=1151759"]), :has(> a[href*="showthread.php"][href$="t=1151759"]) + div.windowbg)
 
-##:is(tr:has(> td#td_threadtitle_1151838), :has(> a[href*="showthread.php"][href$="t=1151838"]), :has(> a[href*="showthread.php"][href$="t=1151838"]) + div.windowbg)
-
 ##:is(tr:has(> td#td_threadtitle_1152301), :has(> a[href*="showthread.php"][href$="t=1152301"]), :has(> a[href*="showthread.php"][href$="t=1152301"]) + div.windowbg)
 
 ##:is(tr:has(> td#td_threadtitle_1152669), :has(> a[href*="showthread.php"][href$="t=1152669"]), :has(> a[href*="showthread.php"][href$="t=1152669"]) + div.windowbg)
-
-##:is(tr:has(> td#td_threadtitle_1153061), :has(> a[href*="showthread.php"][href$="t=1153061"]), :has(> a[href*="showthread.php"][href$="t=1153061"]) + div.windowbg)
 
 ##:is(tr:has(> td#td_threadtitle_1153081), :has(> a[href*="showthread.php"][href$="t=1153081"]), :has(> a[href*="showthread.php"][href$="t=1153081"]) + div.windowbg)
 
@@ -270,6 +262,8 @@
 
 ##:is(tr:has(> td#td_threadtitle_1155539), :has(> a[href*="showthread.php"][href$="t=1155539"]), :has(> a[href*="showthread.php"][href$="t=1155539"]) + div.windowbg)
 
+##:is(tr:has(> td#td_threadtitle_1155879), :has(> a[href*="showthread.php"][href$="t=1155879"]), :has(> a[href*="showthread.php"][href$="t=1155879"]) + div.windowbg)
+
 ##:is(tr:has(> td#td_threadtitle_724056), :has(> a[href*="showthread.php"][href$="t=724056"]), :has(> a[href*="showthread.php"][href$="t=724056"]) + div.windowbg)
 
 ##:is(tr:has(> td#td_threadtitle_894231), :has(> a[href*="showthread.php"][href$="t=894231"]), :has(> a[href*="showthread.php"][href$="t=894231"]) + div.windowbg)
@@ -295,6 +289,8 @@
 ##:is(tr:has(> td#td_threadtitle_1115653), :has(> a[href*="showthread.php"][href$="t=1115653"]), :has(> a[href*="showthread.php"][href$="t=1115653"]) + div.windowbg)
 
 ##:is(tr:has(> td#td_threadtitle_1119710), :has(> a[href*="showthread.php"][href$="t=1119710"]), :has(> a[href*="showthread.php"][href$="t=1119710"]) + div.windowbg)
+
+##:is(tr:has(> td#td_threadtitle_1133376), :has(> a[href*="showthread.php"][href$="t=1133376"]), :has(> a[href*="showthread.php"][href$="t=1133376"]) + div.windowbg)
 
 ##:is(tr:has(> td#td_threadtitle_1134234), :has(> a[href*="showthread.php"][href$="t=1134234"]), :has(> a[href*="showthread.php"][href$="t=1134234"]) + div.windowbg)
 
